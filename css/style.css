@@ -144,6 +144,15 @@ p { font-size: 15px; font-style: normal; font-weight: 400; text-transform: none;
 .howworks .box {margin: 0; padding: 20px; margin-top: -80px;}
 .howworks .box img {width: 170px; height: auto; padding-bottom: 10px; margin-top: 80px;}
 
+  .icon-box-responsive .icon{
+    left: -10px !important;
+  }
+
+  .icon-box-responsive p, .icon-box-responsive h3{
+    margin: 0 -10px 10px 78px !important;
+    text-align: left !important;
+  }
+
 
 .bullet-checks {width: 100%; text-align: left;}
 .bullet-checks ul { list-style-type: none; margin: 0; padding: 0;}
@@ -285,6 +294,17 @@ p { font-size: 20px; font-style: normal; font-weight: 400; text-transform: none;
 
 
 .text-subhead-med { font-size: 30px !important; font-weight: 800; line-height: 1.1; margin-bottom: 20px; }
+
+
+  .icon-box-responsive .icon{
+    left: 0 !important;
+  }
+
+  .icon-box-responsive p, .icon-box-responsive h3{
+    margin: 0 0 20px 83px !important;
+    text-align: left !important;
+  }
+
 
 .howworks {margin: 0; padding: 15px;}
 .howworks .box h2 {font-size: 25px; line-height: 30px;  font-weight: 400;}
@@ -433,6 +453,15 @@ p { font-size: 20px; font-style: normal; font-weight: 400; text-transform: none;
 
 .img-data-orch {width: 100%; height: 100%;}
 
+
+  .icon-box-responsive .icon{
+    left: 0 !important;
+  }
+
+  .icon-box-responsive p, .icon-box-responsive h3{
+    margin: 0 0 20px 83px !important;
+    text-align: left !important;
+  }
 
 
 .right-img-align {width: 725px; height: 665px; padding-top: 5px;}
@@ -7706,13 +7735,8 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
     align-items: center !important; 
     margin-left: 0 !important;
   }
-  .icon-box-responsive .icon{
-    left: 0 !important;
-  }
-  .icon-box-responsive p, .icon-box-responsive h3{
-    margin: 0 0 20px 83px !important;
-    text-align: left !important;
-  }
+
+
 }
 
 .book_demo_btn a:hover{
