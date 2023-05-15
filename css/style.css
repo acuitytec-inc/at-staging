@@ -7693,3 +7693,21 @@ body[data-bg-image] { background-attachment: fixed; background-position: top cen
 .card .card-body .wizard { padding: 1rem; }
 
 section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-index: 1; background-color: #fff;}
+
+
+
+@media screen and (max-width: 991px){
+  #mainMenu nav{
+    margin-left: 0 !important;
+  }
+  .book_demo_btn a{
+    display: flex !important;
+    justify-content: center !important; 
+    align-items: center !important; 
+    margin-left: 0 !important;
+  }
+}
+
+.book_demo_btn a:hover{
+  color: #222c49 !important;
+}
