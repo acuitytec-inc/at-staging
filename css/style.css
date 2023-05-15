@@ -7705,6 +7705,7 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
     justify-content: center !important; 
     align-items: center !important; 
     margin-left: 0 !important;
+    padding-right: 50px;
   }
 }
 
