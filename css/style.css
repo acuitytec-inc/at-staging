@@ -7705,10 +7705,17 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
     justify-content: center !important; 
     align-items: center !important; 
     margin-left: 0 !important;
-    padding-right: 50px;
+  }
+  .icon-box-responsive .icon{
+    left: 0 !important;
+  }
+  .icon-box-responsive p, .icon-box-responsive h3{
+    margin: 0 0 20px 83px !important;
+    text-align: left !important;
   }
 }
 
 .book_demo_btn a:hover{
   color: #222c49 !important;
 }
+
