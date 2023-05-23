@@ -73,7 +73,7 @@ section .page-content { padding: 0; }
 
 
   .is-mobile-short {
-    height: 600px;
+    height: 650px;
   }
 
 
@@ -114,10 +114,16 @@ section .page-content { padding: 0; }
 
 .right-img-align {width: 90%; height: 90%; padding-top: 20px;}
 
-.feature-img img {width: 95%;}
+.feature-img img {width: 98%; margin: 0px;}
+
+.feature-img-new img {margin-left: -10px; width: 420px;}
+
+
 .feature-img-content-left { margin-top: 300px;}
 
 .feature-img-sm img {width: 35%;}
+
+.feature-img-xsm img {width: 15%;}
 
 .feature-img-left {margin-left: -100px;}
 
@@ -275,9 +281,13 @@ p { font-size: 15px; font-style: normal; font-weight: 400; text-transform: none;
 .feature-img img {width: 95%;}
 .feature-img-content-left { margin-top: 650px;}
 
+.feature-img-new img {margin-left: -30px; width: 550px;}
+
 .feature-img-left {margin-left: -40px;}
 
 .feature-img-sm img {width: 15%;}
+
+.feature-img-xsm img {width: 15%;}
 
 .left-thumb-align {padding-top: 30px; width: 220px; height: 180px; padding-bottom: 10px;}
 
@@ -423,9 +433,13 @@ p { font-size: 20px; font-style: normal; font-weight: 400; text-transform: none;
 .feature-img img {width: 700px;}
 .feature-img-content-left { margin-top: 5px;}
 
+.feature-img-new img {margin-left: 20px; width: 700px;}
+
 .feature-img-left {margin-left: 0px;}
 
 .feature-img-sm img {width: 5%;}
+
+.feature-img-xsm img {width: 5%;}
 
   .image-absolute { position: absolute; top: 100px; left: 200px; width: 426px; height: 556px; padding-top: 15px;}
 
@@ -2454,13 +2468,13 @@ Portfolio
 .post-item-long p {font-size: 16px;}
 
 
-.post-item-long h1 {font-size: 45px; font-weight: 800; color:#222c49; margin-top: 15px; }
+.post-item-long h1 {font-size: 30px; font-weight: 800; color:#222c49; margin-top: 15px; }
 
-.post-item-long h2 {font-size: 30px; font-weight: 500; color:#3b7ea3; margin-top:-10px; }
+.post-item-long h2 {font-size: 25px; font-weight: 500; color:#3b7ea3; margin-top:-10px; }
 
-.post-item-long h3 {font-size: 25px; font-weight: 700; color:#222c49;}
+.post-item-long h3 {font-size: 25px; font-weight: 700; color:#222c49; line-height: 30px;}
 
-.post-item-long h4 {font-size: 18px; font-weight: 600;}
+.post-item-long h4 {font-size: 18px; font-weight: 600; line-height: 22px; color:#3b7ea3;}
 
 .post-item-long ul {margin-top: 10px; margin-bottom: 20px;}
 
