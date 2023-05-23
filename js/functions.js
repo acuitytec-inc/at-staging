@@ -323,7 +323,7 @@ var INSPIRO = {},
                 shrinkHeader = 300;
             }
 
-            $(window).breakpoints("greaterEqualTo", "xs", function() {
+            $(window).breakpoints("greaterEqualTo", "lg", function() {
                 if (!$header.is(".header-disable-fixed")) {
                     if (scrollOnTop > $headerOffsetTop + shrinkHeader) {
                         $header.addClass("header-sticky");
@@ -345,7 +345,7 @@ var INSPIRO = {},
                     }
                 }
             });
-            $(window).breakpoints("lessThan", "xs", function() {
+            $(window).breakpoints("lessThan", "lg", function() {
                 if ($header.attr("data-responsive-fixed") == "true") {
                     if (scrollOnTop > $headerOffsetTop + shrinkHeader) {
                         $header.addClass("header-sticky");
