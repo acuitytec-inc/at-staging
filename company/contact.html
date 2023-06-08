@@ -123,6 +123,7 @@
     <!-- End Twitter conversion tracking base code -->
 
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </head>
 
@@ -365,6 +366,12 @@
 
 
 
+                            <div class="g-recaptcha m-b-20" data-sitekey="6LdbUXomAAAAAI0TNzYS9xHWEPF-tvFrcBec5sgl" data-callback="gRecaptchaCallback"></div>
+                            <input type="hidden" name="GRREADY" value="" class="required text">
+                              
+
+
+
                                 <div id="mce-responses" class="clear foot">
                                     <div class="response" id="mce-error-response" style="display:show"></div>
                                     <div class="response" id="mce-success-response" style="display:show"></div>
@@ -378,8 +385,9 @@
                                         </div>
                                     </div>
                                 </div>
-
-
+								<div class="mc-field-group" style="height:1px;opacity:0.1;overflow:hidden;width:1px">
+									<input type="text" value="" name="GRINDICATOR" class="" id="mce-GRINDICATOR" required>
+								</div>
                             </form>
                             </div>
                             <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[3]='MMERGE3';ftypes[3]='text';fnames[5]='MMERGE5';ftypes[5]='dropdown';fnames[4]='MMERGE4';ftypes[4]='dropdown';fnames[6]='MMERGE6';ftypes[6]='dropdown';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[8]='MMERGE8';ftypes[8]='phone';fnames[9]='MMERGE9';ftypes[9]='radio';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
@@ -554,7 +562,15 @@
  } 
 });
 </script>
-
+<script>
+	function gRecaptchaCallback(a){
+		if(a != ""){
+			jQuery("#mce-GRINDICATOR").val("1");
+		} else{
+			jQuery("#mce-GRINDICATOR").val("");
+		}
+	}
+</script>
 
 
 
