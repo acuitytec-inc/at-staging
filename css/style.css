@@ -406,7 +406,7 @@ p { font-size: 20px; font-style: normal; font-weight: 400; text-transform: none;
 
 
   .is-desktop-short {
-    height: 900px;
+    height: 820px;
   }
 
   .is-desktop-banner-text {
@@ -540,7 +540,7 @@ p { font-size: 15px; font-style: normal; font-weight: 400; text-transform: none;
 @media screen and (min-width: 1680px),print {
     .image-absolute { position: absolute; top: 100px; left: 300px; width: 426px; height: 556px; padding-top: 15px;}
 
-    .is-desktop-short {height: 1000px;}
+    .is-desktop-short {height: 960px;}
 }
 
 
@@ -548,7 +548,7 @@ p { font-size: 15px; font-style: normal; font-weight: 400; text-transform: none;
 @media screen and (min-width: 1920px),print {
     .image-absolute { position: absolute; top: 100px; left: 400px; width: 426px; height: 556px; padding-top: 15px;}
 
-    .is-desktop-short {height: 1050px;}
+    .is-desktop-short {height: 900px;}
 
   }
 
