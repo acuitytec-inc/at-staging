@@ -186,38 +186,63 @@
 </head>
 
 <body>
-    <!-- Body Inner -->
-    <div class="body-inner">
+
+   <div class="body-inner-reg">
+
+         <!-- Topbar-->
+        <div id="topbar" class="topbar-transparent topbar-dark d-none d-xl-block d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ">
+                         <ul class="top-menu">
+                            <li><a href="tel:+18665042170">Phone: +1-866-504-2170 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                            <li><a class="medblue" href="../company/contact.html">Contact Sales <i class="fa fa-long-arrow-alt-right"></i></a></li>
+                        </ul>
+                      
+                    </div>
+
+
+                    <div class="col-md-6 d-none d-sm-block ">
+                        
+
+                        <div class="social-icons ">
+                            <ul>
+                                <li class="social-twitter"><a href="https://twitter.com/acuitytec" target="_blank"><img src="../../img/svg/twitter-x.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.linkedin.com/company/acuitytec/" target="_blank"><img src="../../img/svg/linkedin.svg"  width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.facebook.com/AcuityTec/" target="_blank"><img src="../../img/svg/facebook.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.reddit.com/user/Acuitytec-global/" target="_blank"><img src="../../img/svg/reddit.svg"  width="18px"></a></li>   
+                            </ul>
+                        </div>
+
+                       
 
 
 
-        <!-- Header -->
-        <header id="header" data-fullwidth="false"  data-transparent="true" class="dark">
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--end: Topbar -->
+
+
+   <!-- Header -->
+        <header id="header" data-transparent="true" class="dark">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
-                        <a href="../index.html">
+                       <a href="../index.html">
                             <span class="logo-default"><img src="../img/svg/logo-white.svg" width="180px;"></span>
                             <span class="logo-dark"><img src="../img/svg/logo-white.svg" width="180px;"></span>
                         </a>
                     </div>
                     <!--End: Logo-->
-                   
-
+                    
                     <!--Header Extras-->
-                    <div class="header-extras">
-                        <ul>
-                            <li>
-                                <div class="p-dropdown">
-                                    <a href="#"><img src="../img/svg/flag-usa.svg" width="35px;"></a>
-                                    <ul class="p-dropdown-content">
-                                        <li><a href="#"><img src="../img/svg/flag-usa.svg" width="28px;">English</a></li>
-                                        <li><a href="../ml/sp/servicios/kyt.html"><img src="../img/svg/flag-spanish.svg" width="22px;"> Spanish</a></li>
-                                        <li><a href="../ml/pt/servicos/kyt.html"><img src="../img/svg/flag-portugal.svg" width="22px;"> Portuguese</a></li>
-                                    </ul>
-                                </div>
-                            </li>
+                    <div class="header-extras is-hidden-mobile is-hidden-tablet">
+                        <ul class="m-t-10 m-r-10">
+                             <li class="book_demo_btn m-t-3-decrease "><a href="../company/contact.html"  class="navbutton btn btn-outline btn-rounded" style="border-color:rgba(90, 173, 224, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Get Quote</a></li>
+                           
                         </ul>
                     </div>
                     <!--end: Header Extras-->
@@ -227,57 +252,93 @@
                     </div>
                     <!--end: Navigation Resposnive Trigger-->
                     <!--Navigation-->
-                    <div id="mainMenu">
+                    <div id="mainMenu" class="menu-left">
                         <div class="container">
-                           <nav>
-                                <ul>
-                                    <li class="dropdown"><a href="#">Services</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">KYC</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="digital-id.html">Digital Identity</a></li>
-                                                    <li><a href="document-id.html">Document ID</a></li>
-                                                    <li><a href="authentication.html">Authentication</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Smart Transactions</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="#">KYT Data</a></li>
-                                                    <li><a href="crypto-analysis.html">Crypto Analysis</a></li>
-                                                </ul>
-                                            </li>
-                                           
-                                            <li><a href="compliance.html">Compliance</a></li>
+                            <nav>
+                                <ul class="m-t-10">
 
-                                             <li class="dropdown-submenu"><a href="#">Fraud Defence</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="fraud-screen.html">Fraud Screening</a></li>
-                                                    <li><a href="monitor.html">Fraud Monitoring</a></li>
-                                                    <li><a href="bi-reporting.html">B.I. Reporting</a></li>
+                                     <li>
+                                        <div class="p-dropdown m-t-3-decrease is-hidden-tablet is-hidden-mobile">
+                                            <a href="#"><img src="../img/svg/flag-usa.svg" width="35px;"></a>
+                                                <ul class="p-dropdown-content">
+                                                    <li><a href="#"><img src="../img/svg/flag-usa.svg" width="28px;">English</a></li>
+                                                    <li><a href="../ml/sp/servicios/kyt.html"><img src="../img/svg/flag-spanish.svg" width="22px;"> Spanish</a></li>
+                                                    <li><a href="../ml/pt/servicos/kyt.html"><img src="../img/svg/flag-portugal.svg" width="22px;"> Portuguese</a></li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="kyb.html">KYB Underwriting</a></li>
-                                            <li><a href="merchant-services.html">Merchant Services</a></li>
-                                            <li><a href="whitelabel.html">White-Label Solution</a></li>
-                                           
-                                        </ul>
-                                    </li>
-                                    <li><a href="../company/partners.html">Partners</a></li>
+                                        </div>
+                                     </li>
 
-                                    <li class="dropdown"><a href="#">Company</a>
+
+                                     <li class="dropdown is-hidden-desktop">
+                                       <a href="#"><img src="../img/svg/flag-usa.svg" width="35px;">English</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="../company/about.html">About</a></li>
-                                            <li><a href="../news/index.html">News & Media</a></li>
-                                            <li><a href="../company/acuitytec-cert.html">AcuityTec Certificate</a></li>
-                                            <li><a href="../company/careers.html">Careers</a></li>
-                                            <li><a href="../company/contact.html">Contact Us</a></li>
+                                           <li class="dropdown-submenu"><a href="#">English</a></li>
+                                           <li class="dropdown-submenu"><a href="../ml/sp/servicios/kyt.html">Spanish</a></li>
+                                           <li class="dropdown-submenu"><a href="../ml/pt/servicos/kyt.html">Portuguese</a></li>
                                         </ul>
+                                        <hr>
                                     </li>
 
 
-                                     <li class="book_demo_btn"><a href="../company/book-demo.html"  class="navbutton btn btn-lg btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Get A Demo</a></li>
+                                    <li><a href="../index.html">Home</a></li>
+
+                                   
+                                   
+                                    <li class="dropdown mega-menu-item"><a href="#">Solutions</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="mega-menu-content">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Data</li>
+                                                            <li><a href="digital-id.html">Digital Identity</a></li>
+                                                            <li><a href="document-id.html">Document ID</a></li>
+                                                            <li><a href="authentication.html">Authentication</a></li>
+                                                            <li><a href="compliance.html">Compliance AML</a></li>
+                                                            <li><a href="kyb.html">KYB</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Fraud Defence</li>
+                                                            <li><a href="fraud-screen.html">Fraud Screening</a></li>
+                                                            <li><a href="monitor.html">Monitoring</a></li>
+                                                            <li><a href="#">KYT</a></li>
+                                                            <li><a href="crypto-analysis.html">Crypto Analysis</a></li>
+                                                            <li><a href="bi-reporting.html">B.I. Reporting</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Business Services</li>
+                                                            <li><a href="whitelabel.html">White-Label<span class="badge bg-danger">NEW</span></a></li>
+                                                            <li><a href="merchant-services.html">Merchant Services</a></li>
+                                                            <li><a href="../company/partners.html">Partnerships</a></li>
+                                                        </ul>
+                                                    </div>
+                                                   
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="dropdown"><a href="../news/index.html">Insights</a> </li>
+
+
+                                    <li class="dropdown "><a href="#">Company</a>
+                                        <ul class="dropdown-menu">
+                                           <li class="dropdown-submenu"><a href="../company/about.html">About Us</a></li>
+                                           <li class="dropdown-submenu"><a href="../company/acuitytec-cert.html">AcuityTec Certified</a></li>
+                                           <li class="dropdown-submenu"><a href="../company/careers.html">Careers</a></li>
+                                           <li class="dropdown-submenu"><a href="../company/contact.html">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                    
+
+                                    <li class="book_demo_btn m-t-20 is-hidden-desktop "><a href="../company/contact.html"  class="navbutton btn btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Get Quote</a></li>
+
                                 </ul>
-
                             </nav>
                         </div>
                     </div>
@@ -286,6 +347,12 @@
             </div>
         </header>
         <!-- end: Header -->
+
+
+
+
+
+        
 
         <!-- Revolution Slider -->
         <section id="slider" class="is-mobile-short is-tablet-short is-desktop-short">
@@ -500,26 +567,12 @@
                 <div class="row">
                     <div class="col-lg-7 m-t-20" data-animate="fadeInLeft" data-animate-delay="200">
                         <div class="m-b-40">
-                            <h1 class="text-medium dkblue">One Data Hub -<Br> Everything You Need</h1>
-                            <h2 class="text-medium-mlight medblue">Instant verifications for unbeatable fraud protection without compromising first transactions or processing rates.  </h2>
-                            <p>
-                                <b>Multi-Layered Approach</b><br>
-                                The more you know about your customers, the more you can trust them. Leverage a full suite of data verifications readily available to build custom multi-layered workflows with dynamic system actions per region or market to enrich transactional protection. 
-                                <br><br>
-
-
-                                 <b>Orchestration</b><br>
-                                Enjoy data results centralized in one place, powered with automated advanced risk analysis, insights and recommendations to improve reaction times to suspicious activity and safeguard your customers, transactions and revenue. 
-
-                            </p>
+                            <h1 class="text-medium dkblue">All the Data... <Br> to Secure Transactions.</h1>
+                          
                         </div>
                     </div>
 
-                     <div class="col-lg-5 feature-img">
-                        <div  data-animate="fadeInRight" data-animate-delay="400">
-                            <img src="../img/kyt/one-data-hub.jpg" alt="One Data Hub. Everything You Need.">
-                        </div>
-                    </div>
+                    
 
 
                 </div>
@@ -627,26 +680,20 @@
         <section>
             <div class="container">
                 <div class="row">
-                     <div class="col-lg-5 " style="height:600px;">
+                     <div class="col-lg-5 " style="height:500px;">
   
                          <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="400">
-                            <img src="../img/kyt/txn-risk-analysis.jpg" alt="">
+                            <img src="../img/kyt/engine-no-rest.jpg" alt="">
                         </div>
-                        <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="800">
-                            <img src="../img/kyt/txn-risk-analysis-data.png" alt="">
-                        </div>
-
-                        <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="1200">
-                            <img src="../img/kyt/txn-risk-analysis-check.png" alt="">
-                        </div>
+                       
                         
                     </div>
 
 
                     <div class="col-lg-7" data-animate="fadeInRight" data-animate-delay="800">
                         <div class="m-b-40">
-                            <h1 class="text-medium dkblue">Our Engine Doesn't Rest - Ever</h1>
-                            <h2 class="text-medium-mlight medblue">Automatically screen transactions with advanced algorithms to identify risk.</h2>
+                            <h1 class="text-medium dkblue">Our Engine Doesn't Rest.</h1>
+                           
                             <p>
                                 <br><b>Rule-Based Approach</b><br>
                                 Select from a suite of pre-defined risk rules or configure endless options with free-form rule scripting. Ensuring transactional verifications and risk analysis meets your unique risk appetite. 
@@ -677,9 +724,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 m-t-20" data-animate="fadeInUp" data-animate-delay="800">
-                        <div class="m-b-40">
+                       
                             <h1 class="text-medium dkblue">Monitor and Manage</h1>
-                            <h2 class="text-medium-mlight medblue">24/7, 365 days of coninuous risk analysis and transactional monitoring intelligence.</h2>
+                            <!--<h2 class="text-medium-mlight medblue">24/7, 365 days of coninuous risk analysis and transactional monitoring intelligence.</h2>-->
                             <p><br>
 
                                 <b>Transaction Queue</b><br>
@@ -690,7 +737,7 @@
                                  Custom configurable live data dashboard widgets ensure a focused view of data, from conversions, action center activity, approval rate, 1st-time ticket average, etc.
                                 
                             </p>
-                        </div>
+                      
                     </div>
 
                      <div class="col-lg-5 feature-img">
@@ -713,11 +760,9 @@
                      <div class="col-lg-5" style="height:520px;">
   
                          <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="400">
-                            <img src="../img/kyt/txn-slip.png" alt="">
+                            <img src="../img/kyt/customer-profile.jpg" alt="">
                         </div>
-                        <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="800">
-                            <img src="../img/kyt/txn-slip-details.png" alt="">
-                        </div>
+                       
 
                        
                         
@@ -727,7 +772,7 @@
                     <div class="col-lg-7" data-animate="fadeInRight" data-animate-delay="800">
                         <div class="m-b-40 m-l-20">
                             <h1 class="text-medium dkblue">Go Granular in a Click</h1>
-                            <h2 class="text-medium-mlight medblue">View transaction details to associated customer profiles for an in-depth risk review.</h2>
+                            <!--<h2 class="text-medium-mlight medblue">View transaction details to associated customer profiles for an in-depth risk review.</h2>-->
                             <p>
                                 <br><b>Transaction Slip</b><br>
                                  Receive granular details including date, amount, payment method, verification results, risk score, financial information, deposit limits, customer details and more. Ensuring all data is captured to identify swings in behaviour automatically while supporting your AML reporting. 
@@ -820,17 +865,9 @@
                      <div class="col-lg-6 feature-img-left" style="height:500px;">
   
                          <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="0">
-                            <img src="../img/kyt/txn-slip2.png" alt="Transaction Monitoring">
+                            <img src="../img/kyt/woman-txn-slip-cc.jpg" alt="Transaction Monitoring">
                         </div>
-                        <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="400">
-                            <img src="../img/kyt/txn-woman.png" alt="">
-                        </div>
-                         <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="800">
-                            <img src="../img/kyt/txn-risk-data.png" alt="">
-                        </div>
-                         <div class="image-absolute m-t-40-decrease" data-animate="fadeIn" data-animate-delay="1200">
-                            <img src="../img/kyt/txn-risk-checks.png" alt="">
-                        </div>
+                    
                         
                     </div>
 
@@ -838,7 +875,7 @@
                     <div class="col-lg-6" data-animate="fadeInRight" data-animate-delay="400">
                         <div class="m-b-40 m-l-20 m-t-20">
                             <h1 class="text-medium dkblue">End-to-End</h1>
-                            <h2 class="text-medium-mlight medblue">The one platform you'll ever need.</h2>
+                            <!--<h2 class="text-medium-mlight medblue">The one platform you'll ever need.</h2>-->
                             <span class="lead bullet-checks">
                                 <ul>
                                     <li><i class="icon-check-circle"></i>Transactional and KYC data verifications</li>

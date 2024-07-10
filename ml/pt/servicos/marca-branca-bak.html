@@ -114,38 +114,72 @@ twq('config','ocmrd');
 </head>
 
 <body>
+    
     <!-- Body Inner -->
-    <div class="body-inner">
+    <div class="body-inner-reg">
+
+         <!-- Topbar-->
+        <div id="topbar" class="dark topbar-colored ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 m-l-10decrease">
+                      
+                       <div class="p-dropdown m-t-5">
+                           <a href="#"><img src="../../../img/svg/flag-portugal.svg" width="30px;"></a>
+                                <ul class="p-dropdown-content">
+                                   <li><a href="../../../services/whitelabel.html"><img src="../../../img/svg/flag-usa.svg" width="25px;">Inglês</a></li>
+                                    <li><a href="../../../ml/sp/servicios/marca-blanca.html"><img src="../../../img/svg/flag-spanish.svg" width="22px;"> Espanhol</a></li>
+                                    <li><a href="#"><img src="../../../img/svg/flag-portugal.svg" width="22px;"> Português</a></li>
+                                </ul>
+                        </div>
 
 
 
-        <!-- Header -->
-        <header id="header" data-fullwidth="false" data-transparent="true" class="dark">
+                    </div>
+
+
+                    <div class="col-md-6 d-none d-sm-block m-r-10">
+                        
+
+                        <div class="social-icons ">
+                            <ul>
+                                <li class="social-twitter"><a href="https://twitter.com/acuitytec" target="_blank"><img src="../../../img/svg/twitter-x.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.linkedin.com/company/acuitytec/" target="_blank"><img src="../../../img/svg/linkedin.svg"  width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.facebook.com/AcuityTec/" target="_blank"><img src="../../../img/svg/facebook.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.reddit.com/user/Acuitytec-global/" target="_blank"><img src="../../../img/svg/reddit.svg"  width="18px"></a></li>   
+                            </ul>
+                        </div>
+
+                       
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--end: Topbar -->
+
+
+
+   <!-- Header -->
+        <header id="header" data-transparent="true" class="dark">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
-                        <a href="../index.html">
+                       <a href="../index.html">
                             <span class="logo-default"><img src="../../../img/svg/logo-white.svg" width="180px;"></span>
                             <span class="logo-dark"><img src="../../../img/svg/logo-white.svg" width="180px;"></span>
                         </a>
                     </div>
                     <!--End: Logo-->
-                   
-
+                    
                     <!--Header Extras-->
-                    <div class="header-extras">
-                        <ul>
-                            <li>
-                                <div class="p-dropdown">
-                                    <a href="#"><img src="../../../img/svg/flag-portugal.svg" width="25px;"></a>
-                                    <ul class="p-dropdown-content">
-                                        <li><a href="../../../services/whitelabel.html"><img src="../../../img/svg/flag-usa.svg" width="25px;">Inglês</a></li>
-                                        <li><a href="../../../ml/sp/servicios/marca-blanca.html"><img src="../../../img/svg/flag-spanish.svg" width="22px;"> Espanhol</a></li>
-                                        <li><a href="#"><img src="../../../img/svg/flag-portugal.svg" width="22px;"> Português</a></li>
-                                    </ul>
-                                </div>
-                            </li>
+                    <div class="header-extras is-hidden-mobile is-hidden-tablet">
+                        <ul class="m-t-10 m-r-20">
+                             <li class="book_demo_btn "><a href="../empresa/contate-nos.html"  class="navbutton btn btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Contato</a></li>
+                           
                         </ul>
                     </div>
                     <!--end: Header Extras-->
@@ -154,58 +188,69 @@ twq('config','ocmrd');
                         <a class="lines-button x"><span class="lines"></span></a>
                     </div>
                     <!--end: Navigation Resposnive Trigger-->
-                     <!--Navigation-->
-                    <div id="mainMenu">
+                    <!--Navigation-->
+                    <div id="mainMenu" class="menu-left">
                         <div class="container">
-                             <nav>
-                                <ul>
-                                    <li class="dropdown"><a href="#">Serviços</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">KYC</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="kyc.html">Identidade Digital</a></li>
-                                                    <li><a href="identificacao-do-documento.html">ID do Documento</a></li>
-                                                    <li><a href="autenticacao.html">Autenticação</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Transações Inteligentes</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="kyt.html">Dados KYT</a></li>
-                                                    <li><a href="analise-de-criptografia.html">Análise de Criptografia</a></li>
-                                                </ul>
-                                            </li>
-                                           
-                                            <li><a href="conformidade.html">Conformidade</a></li>
+                            <nav>
+                                <ul class="m-t-10">
+                                    <li><a href="../index.html">lar</a></li>
 
-                                             <li class="dropdown-submenu"><a href="#">Defesa Contra Fraude</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="verificacao-de-fraude.html">Triagem de Fraude</a></li>
-                                                    <li><a href="monitorar.html">Monitoramento de Fraude</a></li>
-                                                    <li><a href="relatorios.html">BI. Comunicando</a></li>
-                                                </ul>
+                                   
+                                   
+                                    <li class="dropdown mega-menu-item"><a href="#">Soluções</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="mega-menu-content">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Dados</li>
+                                                            <li><a href="kyc.html">Identidade Digital</a></li>
+                                                            <li><a href="identificacao-do-documento.html">ID do Documento</a></li>
+                                                            <li><a href="autenticacao.html">Autenticação</a></li>
+                                                            <li><a href="conformidade.html">Conformidade</a></li>
+                                                            <li><a href="kyb.html">Subscrição KYB</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Fraud Defence</li>
+                                                            <li><a href="verificacao-de-fraude.html">Triagem de Fraude</a></li>
+                                                            <li><a href="monitorar.html">Monitoramento de Fraude</a></li>
+                                                            <li><a href="kyt.html">Dados KYT</a></li>
+                                                            <li><a href="analise-de-criptografia.html">Análise de Criptografia</a></li>
+                                                            <li><a href="relatorios.html">BI. Comunicando</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Business Services</li>
+                                                            <li><a href="marca-branca.html">Solução de Marca Branca<span class="badge bg-danger">NEW</span></a></li>
+                                                            <li><a href="servicos-para-comerciantes.html">Serviços de Comércio</a></li>
+                                                            <li><a href="../empresa/parceiros.html">Parceiros</a></li>
+                                                        </ul>
+                                                    </div>
+                                                   
+                                                </div>
                                             </li>
-                                            <li><a href="kyb.html">Subscrição KYB</a></li>
-                                            <li><a href="servicos-para-comerciantes.html">Serviços de Comércio</a></li>
-                                            <li><a href="#">Solução de Marca Branca</a></li>
-                                           
                                         </ul>
                                     </li>
-                                    <li><a href="../empresa/parceiros.html">Parceiros</a></li>
 
-                                    <li class="dropdown"><a href="#">Empresa</a>
+
+                                    <li class="dropdown"><a href="../noticias/index.html">Meios de Comunicação</a></li>
+
+
+                                    <li class="dropdown "><a href="#">Empresa</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="../empresa/sobre.html">Sobre</a></li>
-                                            <li><a href="../noticias/index.html">Meios de Comunicação</a></li>
-                                            <li><a href="../empresa/certificado.html">Certificado AcuityTec</a></li>
-                                            <li><a href="../empresa/carreiras.html">Carreiras</a></li>
-                                            <li><a href="../empresa/contate-nos.html">Contate-Nos</a></li>
+                                           <li class="dropdown-submenu"><a href="../empresa/sobre.html">Sobre</a></li>
+                                           <li class="dropdown-submenu"><a href="../empresa/certificado.html">Certificado AcuityTec</a></li>
+                                           <li class="dropdown-submenu"><a href="../empresa/carreiras.html">Carreiras</a></li>
+                                           <li class="dropdown-submenu"><a href="../empresa/contate-nos.html">Contate-Nos</a></li>
                                         </ul>
                                     </li>
 
 
-                                     <li class="book_demo_btn"><a href="../empresa/demonstracao.html"  class="navbutton btn btn-lg btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Demo</a></li>
+                                   
                                 </ul>
-
                             </nav>
                         </div>
                     </div>
@@ -214,6 +259,7 @@ twq('config','ocmrd');
             </div>
         </header>
         <!-- end: Header -->
+
 
         <!-- Inspiro Slider -->
         <div id="slider" class="inspiro-slider is-mobile-short is-tablet-short is-desktop-short">

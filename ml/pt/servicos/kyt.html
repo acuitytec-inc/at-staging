@@ -181,36 +181,65 @@
     
 </head>
 
-<body>
-    <!-- Body Inner -->
-    <div class="body-inner">
 
-         <!-- Header -->
-        <header id="header" data-fullwidth="false" data-transparent="true" class="dark">
+
+
+<body>
+
+<!-- Body Inner -->
+    <div class="body-inner-reg">
+
+         <!-- Topbar-->
+        <div id="topbar" class="topbar-transparent topbar-dark d-none d-xl-block d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ">
+                         <ul class="top-menu">
+                            <li><a href="tel:+18665042170">Telefone: +1-866-504-2170 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                            <li><a class="medblue" href="../empresa/contate-nos.html">Entre em contato com vendas <i class="fa fa-long-arrow-alt-right"></i></a></li>
+                        </ul>
+                      
+                    </div>
+
+
+                    <div class="col-md-6 d-none d-sm-block ">
+                        
+
+                        <div class="social-icons ">
+                            <ul>
+                                <li class="social-twitter"><a href="https://twitter.com/acuitytec" target="_blank"><img src="../../../img/svg/twitter-x.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.linkedin.com/company/acuitytec/" target="_blank"><img src="../../../img/svg/linkedin.svg"  width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.facebook.com/AcuityTec/" target="_blank"><img src="../../../img/svg/facebook.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.reddit.com/user/Acuitytec-global/" target="_blank"><img src="../../../img/svg/reddit.svg"  width="18px"></a></li>   
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--end: Topbar -->
+
+
+
+   <!-- Header -->
+        <header id="header" data-transparent="true" class="dark">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
-                        <a href="../index.html">
+                       <a href="../index.html">
                             <span class="logo-default"><img src="../../../img/svg/logo-white.svg" width="180px;"></span>
                             <span class="logo-dark"><img src="../../../img/svg/logo-white.svg" width="180px;"></span>
                         </a>
                     </div>
                     <!--End: Logo-->
-
-         <!--Header Extras-->
-                    <div class="header-extras">
-                        <ul>
-                            <li>
-                                <div class="p-dropdown">
-                                    <a href="#"><img src="../../../img/svg/flag-portugal.svg" width="25px;"></a>
-                                    <ul class="p-dropdown-content">
-                                        <li><a href="../../../services/kyt.html"><img src="../../../img/svg/flag-usa.svg" width="25px;">Inglês</a></li>
-                                        <li><a href="../../../ml/sp/servicios/kyt.html"><img src="../../../img/svg/flag-spanish.svg" width="22px;"> Espanhol</a></li>
-                                        <li><a href="#"><img src="../../../img/svg/flag-portugal.svg" width="22px;"> Português</a></li>
-                                    </ul>
-                                </div>
-                            </li>
+                    
+                     <!--Header Extras-->
+                    <div class="header-extras is-hidden-mobile is-hidden-tablet">
+                        <ul class="m-t-10 m-r-20">
+                             <li class="book_demo_btn m-t-3-decrease"><a href="../empresa/contate-nos.html"  class="navbutton btn btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Contato</a></li>
+                           
                         </ul>
                     </div>
                     <!--end: Header Extras-->
@@ -220,57 +249,97 @@
                     </div>
                     <!--end: Navigation Resposnive Trigger-->
                     <!--Navigation-->
-                    <div id="mainMenu">
+                    <div id="mainMenu" class="menu-left">
                         <div class="container">
-                             <nav>
-                                <ul>
-                                    <li class="dropdown"><a href="#">Serviços</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">KYC</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="kyc.html">Identidade Digital</a></li>
-                                                    <li><a href="identificacao-do-documento.html">ID do Documento</a></li>
-                                                    <li><a href="autenticacao.html">Autenticação</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Transações Inteligentes</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="#">Dados KYT</a></li>
-                                                    <li><a href="analise-de-criptografia.html">Análise de Criptografia</a></li>
-                                                </ul>
-                                            </li>
-                                           
-                                            <li><a href="conformidade.html">Conformidade</a></li>
+                            <nav>
+                                <ul class="m-t-10">
 
-                                             <li class="dropdown-submenu"><a href="#">Defesa Contra Fraude</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="verificacao-de-fraude.html">Triagem de Fraude</a></li>
-                                                    <li><a href="monitorar.html">Monitoramento de Fraude</a></li>
-                                                    <li><a href="relatorios.html">BI. Comunicando</a></li>
+                                    <li>
+                                        <div class="p-dropdown m-t-3-decrease is-hidden-tablet is-hidden-mobile">
+                                            <a href="#"><img src="../../../img/svg/flag-portugal.svg" width="30px;"></a>
+                                                <ul class="p-dropdown-content">
+                                                    <li><a href="../../../services/kyt.html"><img src="../../../img/svg/flag-usa.svg" width="25px;">Inglês</a></li>
+                                                    <li><a href="../../../ml/sp/servicios/kyt.html"><img src="../../../img/svg/flag-spanish.svg" width="22px;"> Espanhol</a></li>
+                                                    <li><a href="#"><img src="../../../img/svg/flag-portugal.svg" width="22px;"> Português</a></li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="kyb.html">Subscrição KYB</a></li>
-                                            <li><a href="servicos-para-comerciantes.html">Serviços de Comércio</a></li>
-                                            <li><a href="marca-branca.html">Solução de Marca Branca</a></li>
-                                           
-                                        </ul>
-                                    </li>
-                                    <li><a href="../empresa/parceiros.html">Parceiros</a></li>
+                                        </div>
+                                     </li>
 
-                                    <li class="dropdown"><a href="#">Empresa</a>
+
+                                     <li class="dropdown is-hidden-desktop">
+                                       <a href="#"><img src="../../../img/svg/flag-portugal.svg" width="35px;">Português</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="../empresa/sobre.html">Sobre</a></li>
-                                            <li><a href="../noticias/index.html">Meios de Comunicação</a></li>
-                                            <li><a href="../empresa/certificado.html">Certificado AcuityTec</a></li>
-                                            <li><a href="../empresa/carreiras.html">Carreiras</a></li>
-                                            <li><a href="../empresa/contate-nos.html">Contate-Nos</a></li>
+                                           <li class="dropdown-submenu"><a href="../../../services/kyt.html">Inglês</a></li>
+                                           <li class="dropdown-submenu"><a href="../../../ml/sp/servicios/kyt.html"> Espanhol</a></li>
+                                           <li class="dropdown-submenu"><a href="#">Português</a></li>
                                         </ul>
+                                        <hr>
                                     </li>
 
 
-                                     <li class="book_demo_btn"><a href="../empresa/demonstracao.html"  class="navbutton btn btn-lg btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Demo</a></li>
+
+                                    <li><a href="../index.html">lar</a></li>
+
+                                   
+                                   
+                                    <li class="dropdown mega-menu-item"><a href="#">Soluções</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="mega-menu-content">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Dados</li>
+                                                            <li><a href="kyc.html">Identidade Digital</a></li>
+                                                            <li><a href="identificacao-do-documento.html">ID do Documento</a></li>
+                                                            <li><a href="autenticacao.html">Autenticação</a></li>
+                                                            <li><a href="conformidade.html">Conformidade</a></li>
+                                                            <li><a href="kyb.html">Subscrição KYB</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Fraud Defence</li>
+                                                            <li><a href="verificacao-de-fraude.html">Triagem de Fraude</a></li>
+                                                            <li><a href="monitorar.html">Monitoramento de Fraude</a></li>
+                                                            <li><a href="#">Dados KYT</a></li>
+                                                            <li><a href="analise-de-criptografia.html">Análise de Criptografia</a></li>
+                                                            <li><a href="relatorios.html">BI. Comunicando</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Business Services</li>
+                                                            <li><a href="marca-branca.html">Solução de Marca Branca<span class="badge bg-danger">NEW</span></a></li>
+                                                            <li><a href="servicos-para-comerciantes.html">Serviços de Comércio</a></li>
+                                                            <li><a href="../empresa/parceiros.html">Parceiros</a></li>
+                                                        </ul>
+                                                    </div>
+                                                   
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="dropdown"><a href="../noticias/index.html">Meios de Comunicação</a></li>
+
+
+                                    <li class="dropdown "><a href="#">Empresa</a>
+                                        <ul class="dropdown-menu">
+                                           <li class="dropdown-submenu"><a href="../empresa/sobre.html">Sobre</a></li>
+                                           <li class="dropdown-submenu"><a href="../empresa/certificado.html">Certificado AcuityTec</a></li>
+                                           <li class="dropdown-submenu"><a href="../empresa/carreiras.html">Carreiras</a></li>
+                                           <li class="dropdown-submenu"><a href="../empresa/contate-nos.html">Contate-Nos</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                     <li class="book_demo_btn m-t-20 is-hidden-desktop "><a href="../empresa/contate-nos.html"  class="navbutton btn btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Obter cotação</a></li>
+
+
+
+                                   
                                 </ul>
-
                             </nav>
                         </div>
                     </div>
@@ -279,6 +348,12 @@
             </div>
         </header>
         <!-- end: Header -->
+
+
+
+
+
+
 
         <!-- Revolution Slider -->
         <section id="slider" class="is-mobile-short is-tablet-short is-desktop-short">
@@ -493,18 +568,9 @@
                 <div class="row">
                     <div class="col-lg-7 m-t-20" data-animate="fadeInLeft" data-animate-delay="200">
                         <div class="m-b-40">
-                            <h1 class="text-medium dkblue">Um Hub de Dados - <br>Tudo o que Você Precisa</h1>
-                            <h2 class="text-medium-mlight medblue">Verificações instantâneas para proteção imbatível contra fraudes sem comprometer as primeiras transações ou taxas de processamento.</h2>
-                            <p>
-                                <b>Abordagem Multicamadas</b><br>
-                                Quanto mais você souber sobre seus clientes, mais poderá confiar neles. Aproveite um conjunto completo de verificações de dados prontamente disponíveis para criar fluxos de trabalho personalizados em várias camadas com ações dinâmicas do sistema por região ou mercado para enriquecer a proteção transacional. 
-                                <br><br>
-
-
-                                 <b>Orquestração</b><br>
-                                Aproveite os resultados de dados centralizados em um só lugar, alimentados com análise de risco avançada automatizada, insights e recomendações para melhorar os tempos de reação a atividades suspeitas e proteger seus clientes, transações e receita.
-
-                            </p>
+                            <h1 class="text-medium dkblue">Todos os dados... <Br> para transações seguras.</h1>
+                            <!--<h2 class="text-medium-mlight medblue">Verificações instantâneas para proteção imbatível contra fraudes sem comprometer as primeiras transações ou taxas de processamento.</h2>-->
+                            
                         </div>
                     </div>
 
@@ -623,15 +689,9 @@
                      <div class="col-lg-5 " style="height:600px;">
   
                          <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="400">
-                            <img src="../../../img/kyt/txn-risk-analysis-pt.jpg" alt="">
+                            <img src="../../../img/kyt/engine-no-rest.jpg" alt="">
                         </div>
-                        <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="800">
-                            <img src="../../../img/kyt/txn-risk-analysis-data.png" alt="">
-                        </div>
-
-                        <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="1200">
-                            <img src="../../../img/kyt/txn-risk-analysis-check.png" alt="">
-                        </div>
+                       
                         
                     </div>
 
@@ -639,7 +699,7 @@
                     <div class="col-lg-7" data-animate="fadeInRight" data-animate-delay="800">
                         <div class="m-b-40">
                             <h1 class="text-medium dkblue">Transações Confiantes</h1>
-                            <h2 class="text-medium-mlight medblue">Analise transações com algoritmos avançados para identificar riscos.</h2>
+                            <!--<h2 class="text-medium-mlight medblue">Analise transações com algoritmos avançados para identificar riscos.</h2>-->
                             <p>
                                 <br><b>Abordagem Baseada em Regras</b><br>
                                 Selecione a partir de um conjunto de regras de risco predefinidas ou configure infinitas opções com scripts de regras de formato livre. Garantir que as verificações transacionais e a análise de risco atendam ao seu apetite de risco exclusivo.
@@ -672,7 +732,7 @@
                     <div class="col-lg-7 m-t-20" data-animate="fadeInUp" data-animate-delay="800">
                         <div class="m-b-40">
                             <h1 class="text-medium dkblue">Monitorar e Gerenciar</h1>
-                            <h2 class="text-medium-mlight medblue">24/7, 365 dias de análise de risco contínua e inteligência de monitoramento transacional.</h2>
+                            <!--<h2 class="text-medium-mlight medblue">24/7, 365 dias de análise de risco contínua e inteligência de monitoramento transacional.</h2>-->
                             <p><br>
 
                                 <b>Fila de Transações</b><br>
@@ -705,11 +765,9 @@
                      <div class="col-lg-5" style="height:520px;">
   
                          <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="400">
-                            <img src="../../../img/kyt/txn-slip-pt.png" alt="">
+                            <img src="../../../img/kyt/customer-profile.jpg" alt="">
                         </div>
-                        <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="800">
-                            <img src="../../../img/kyt/txn-slip-details-pt.png" alt="">
-                        </div>
+                       
 
                        
                         
@@ -719,7 +777,7 @@
                     <div class="col-lg-7" data-animate="fadeInRight" data-animate-delay="800">
                         <div class="m-b-40 m-l-20">
                             <h1 class="text-medium dkblue">Granular em um Clique</h1>
-                            <h2 class="text-medium-mlight medblue">Visualize detalhes de transações para perfis de clientes associados para uma análise de risco aprofundada.</h2>
+                           <!--<h2 class="text-medium-mlight medblue">Visualize detalhes de transações para perfis de clientes associados para uma análise de risco aprofundada.</h2>-->
                             <p>
                                 <br><b>Boleto de Transação</b><br>
                                  Receba detalhes granulares, incluindo data, valor, método de pagamento, resultados da verificação, pontuação de risco, informações financeiras, limites de depósito, detalhes do cliente e muito mais. Garantir que todos os dados sejam capturados para identificar mudanças de comportamento automaticamente, ao mesmo tempo em que suporta seus relatórios de AML.
@@ -812,17 +870,9 @@
                      <div class="col-lg-6 feature-img-left" style="height:500px;">
   
                          <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="0">
-                            <img src="../../../img/kyt/txn-slip2-pt.png" alt="Transaction Monitoring">
+                            <img src="../../../img/kyt/woman-txn-slip-cc-pt.jpg" alt="Transaction Monitoring">
                         </div>
-                        <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="400">
-                            <img src="../../../img/kyt/txn-woman.png" alt="">
-                        </div>
-                         <div class="image-absolute m-t-40-decrease" data-animate="fadeInLeft" data-animate-delay="800">
-                            <img src="../../../img/kyt/txn-risk-data.png" alt="">
-                        </div>
-                         <div class="image-absolute m-t-40-decrease" data-animate="fadeIn" data-animate-delay="1200">
-                            <img src="../../../img/kyt/txn-risk-checks.png" alt="">
-                        </div>
+                       
                         
                     </div>
 
@@ -830,7 +880,7 @@
                     <div class="col-lg-6" data-animate="fadeInRight" data-animate-delay="400">
                         <div class="m-b-40 m-l-20 m-t-20">
                             <h1 class="text-medium dkblue">Solução completa</h1>
-                            <h2 class="text-medium-mlight medblue">A única API que você vai precisar.</h2>
+                            <!--<h2 class="text-medium-mlight medblue">A única API que você vai precisar.</h2>-->
                             <span class="lead bullet-checks">
                                 <ul>
                                     <li><i class="icon-check-circle"></i>Verificações de dados transacionais e KYC</li>

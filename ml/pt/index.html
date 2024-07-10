@@ -123,40 +123,59 @@ twq('config','ocmrd');
 
 <body>
     <!-- Body Inner -->
-    <div class="body-inner">
+    <div class="body-inner-reg">
+
+         <!-- Topbar-->
+        <div id="topbar" class="topbar-transparent topbar-dark d-none d-xl-block d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ">
+                         <ul class="top-menu">
+                            <li><a href="tel:+18665042170">Telefone: +1-866-504-2170 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                            <li><a class="medblue" href="empresa/contate-nos.html">Entre em contato com vendas <i class="fa fa-long-arrow-alt-right"></i></a></li>
+                        </ul>
+                      
+                    </div>
+
+
+                    <div class="col-md-6 d-none d-sm-block ">
+                        
+
+                        <div class="social-icons ">
+                            <ul>
+                                <li class="social-twitter"><a href="https://twitter.com/acuitytec" target="_blank"><img src="../../img/svg/twitter-x.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.linkedin.com/company/acuitytec/" target="_blank"><img src="../../img/svg/linkedin.svg"  width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.facebook.com/AcuityTec/" target="_blank"><img src="../../img/svg/facebook.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.reddit.com/user/Acuitytec-global/" target="_blank"><img src="../../img/svg/reddit.svg"  width="18px"></a></li>   
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--end: Topbar -->
 
 
 
-
-
-        <!-- Header -->
-        <header id="header" data-fullwidth="false" data-transparent="true" class="dark">
+   <!-- Header -->
+        <header id="header" data-transparent="true" class="dark">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
-                        <a href="index.html">
+                       <a href="index.html">
                             <span class="logo-default"><img src="../../img/svg/logo-white.svg" width="180px;"></span>
                             <span class="logo-dark"><img src="../../img/svg/logo-white.svg" width="180px;"></span>
                         </a>
                     </div>
                     <!--End: Logo-->
-                   
-
-
-                    <!--Header Extras-->
-                    <div class="header-extras">
-                        <ul>
-                            <li>
-                                <div class="p-dropdown">
-                                    <a href="#"><img src="../../img/svg/flag-portugal.svg" width="25px;"></a>
-                                    <ul class="p-dropdown-content">
-                                        <li><a href="../../index.html"><img src="../../img/svg/flag-usa.svg" width="25px;">Inglês</a></li>
-                                        <li><a href="../../ml/sp/index.html"><img src="../../img/svg/flag-spanish.svg" width="22px;"> Espanhol</a></li>
-                                        <li><a href="#"><img src="../../img/svg/flag-portugal.svg" width="22px;"> Português</a></li>
-                                    </ul>
-                                </div>
-                            </li>
+                    
+                     <!--Header Extras-->
+                    <div class="header-extras is-hidden-mobile is-hidden-tablet">
+                        <ul class="m-t-10 m-r-20">
+                             <li class="book_demo_btn m-t-3-decrease"><a href="empresa/contate-nos.html"  class="navbutton btn btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Contato</a></li>
+                           
                         </ul>
                     </div>
                     <!--end: Header Extras-->
@@ -166,57 +185,97 @@ twq('config','ocmrd');
                     </div>
                     <!--end: Navigation Resposnive Trigger-->
                     <!--Navigation-->
-                    <div id="mainMenu">
+                    <div id="mainMenu" class="menu-left">
                         <div class="container">
-                             <nav>
-                                <ul>
-                                    <li class="dropdown"><a href="#">Serviços</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">KYC</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="servicos/kyc.html">Identidade Digital</a></li>
-                                                    <li><a href="servicos/identificacao-do-documento.html">ID do Documento</a></li>
-                                                    <li><a href="servicos/autenticacao.html">Autenticação</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Transações Inteligentes</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="servicos/kyt.html">Dados KYT</a></li>
-                                                    <li><a href="servicos/analise-de-criptografia.html">Análise de Criptografia</a></li>
-                                                </ul>
-                                            </li>
-                                           
-                                            <li><a href="servicos/conformidade.html">Conformidade</a></li>
+                            <nav>
+                                <ul class="m-t-10">
 
-                                             <li class="dropdown-submenu"><a href="#">Defesa Contra Fraude</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="servicos/verificacao-de-fraude.html">Triagem de Fraude</a></li>
-                                                    <li><a href="servicos/monitorar.html">Monitoramento de Fraude</a></li>
-                                                    <li><a href="servicos/relatorios.html">BI. Comunicando</a></li>
+                                    <li>
+                                        <div class="p-dropdown m-t-3-decrease is-hidden-tablet is-hidden-mobile">
+                                            <a href="#"><img src="../../img/svg/flag-portugal.svg" width="30px;"></a>
+                                                <ul class="p-dropdown-content">
+                                                    <li><a href="../../index.html"><img src="../../img/svg/flag-usa.svg" width="28px;">Inglês</a></li>
+                                                    <li><a href="../../ml/sp/index.html"><img src="../../img/svg/flag-spanish.svg" width="22px;">  Espanhol</a></li>
+                                                    <li><a href="#"><img src="../../img/svg/flag-portugal.svg" width="22px;"> Português</a></li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="servicos/kyb.html">Subscrição KYB</a></li>
-                                            <li><a href="servicos/servicos-para-comerciantes.html">Serviços de Comércio</a></li>
-                                            <li><a href="servicos/marca-branca.html">Solução de Marca Branca</a></li>
-                                           
-                                        </ul>
-                                    </li>
-                                    <li><a href="empresa/parceiros.html">Parceiros</a></li>
+                                        </div>
+                                     </li>
 
-                                    <li class="dropdown"><a href="#">Empresa</a>
+
+                                     <li class="dropdown is-hidden-desktop">
+                                       <a href="#"><img src="../../img/svg/flag-portugal.svg" width="35px;">Português</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="empresa/sobre.html">Sobre</a></li>
-                                            <li><a href="noticias/index.html">Meios de Comunicação</a></li>
-                                            <li><a href="empresa/certificado.html">Certificado AcuityTec</a></li>
-                                            <li><a href="empresa/carreiras.html">Carreiras</a></li>
-                                            <li><a href="empresa/contate-nos.html">Contate-Nos</a></li>
+                                           <li class="dropdown-submenu"><a href="../../index.html">Inglês</a></li>
+                                           <li class="dropdown-submenu"><a href="../../ml/sp/index.html"> Espanhol</a></li>
+                                           <li class="dropdown-submenu"><a href="#">Português</a></li>
                                         </ul>
+                                        <hr>
                                     </li>
 
 
-                                     <li class="book_demo_btn"><a href="empresa/demonstracao.html"  class="navbutton btn btn-lg btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Demo</a></li>
+
+                                    <li><a href="index.html">lar</a></li>
+
+                                   
+                                   
+                                    <li class="dropdown mega-menu-item"><a href="#">Soluções</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="mega-menu-content">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Dados</li>
+                                                            <li><a href="servicos/kyc.html">Identidade Digital</a></li>
+                                                            <li><a href="servicos/identificacao-do-documento.html">ID do Documento</a></li>
+                                                            <li><a href="servicos/autenticacao.html">Autenticação</a></li>
+                                                            <li><a href="servicos/conformidade.html">Conformidade</a></li>
+                                                            <li><a href="servicos/kyb.html">Subscrição KYB</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Fraud Defence</li>
+                                                            <li><a href="servicos/verificacao-de-fraude.html">Triagem de Fraude</a></li>
+                                                            <li><a href="servicos/monitorar.html">Monitoramento de Fraude</a></li>
+                                                            <li><a href="servicos/kyt.html">Dados KYT</a></li>
+                                                            <li><a href="servicos/analise-de-criptografia.html">Análise de Criptografia</a></li>
+                                                            <li><a href="servicos/relatorios.html">BI. Comunicando</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Business Services</li>
+                                                            <li><a href="servicos/marca-branca.html">Solução de Marca Branca<span class="badge bg-danger">NEW</span></a></li>
+                                                            <li><a href="servicos/servicos-para-comerciantes.html">Serviços de Comércio</a></li>
+                                                            <li><a href="empresa/parceiros.html">Parceiros</a></li>
+                                                        </ul>
+                                                    </div>
+                                                   
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="dropdown"><a href="noticias/index.html">Meios de Comunicação</a></li>
+
+
+                                    <li class="dropdown "><a href="#">Empresa</a>
+                                        <ul class="dropdown-menu">
+                                           <li class="dropdown-submenu"><a href="empresa/sobre.html">Sobre</a></li>
+                                           <li class="dropdown-submenu"><a href="empresa/certificado.html">Certificado AcuityTec</a></li>
+                                           <li class="dropdown-submenu"><a href="empresa/carreiras.html">Carreiras</a></li>
+                                           <li class="dropdown-submenu"><a href="empresa/contate-nos.html">Contate-Nos</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                     <li class="book_demo_btn m-t-20 is-hidden-desktop "><a href="empresa/contate-nos.html"  class="navbutton btn btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Obter cotação</a></li>
+
+
+
+                                   
                                 </ul>
-
                             </nav>
                         </div>
                     </div>
@@ -225,430 +284,193 @@ twq('config','ocmrd');
             </div>
         </header>
         <!-- end: Header -->
-        <!-- Revolution Slider -->
-        <section id="slider" class=" is-tablet-short is-desktop-short">
-            <div id="rev_slider_484_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="focus-parallax" data-source="gallery" style="background-color:#273358;padding:0px;">
-                <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
-                <div id="rev_slider_484_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
-                    <ul>
 
-                         <!-- SLIDE --> 
-                        <li data-index="rs-1680" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-title="Power"
-                            data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                           
-                          <!--MAIN IMAGE-->
-                            <img src="../../plugin/assets/images/dummy.png" data-bgcolor="#0c264b" alt="" data-lazyload="../../plugin/assets/images/transparent.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
-                                class="rev-slidebg" data-no-retina>
 
-                           <!--LAYERS -->
-                           
-                          <!--LAYER NR. 30 -->
-                            <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-1" id="slide-1680-layer-3" data-x="['center','center','center','center']" data-hoffset="['200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','-100','20','-150']"
-                                data-width="['480','500','400','250']" data-height="['560','600','460','275']" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"from":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1000,"to":"o:1;","delay":500,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;background-color:rgba(0, 0, 0, 0);border-color:rgba(74, 156, 213, 0.15);border-style:solid;border-width:30px;filter:blur(5px);-webkit-filter:blur(5px);-moz-filter:blur(5px);-o-filter:blur(5px);-ms-filter:blur(5px);">
+
+
+
+               <!-- Inspiro Slider -->
+        <div id="slider" class="inspiro-slider slider-fullscreen dots-creative is-tablet-short is-desktop-short"  style="background-color:#fff;">
+            
+
+
+             <!-- Slide 1 -->
+            <div class="slide kenburns" data-bg-parallax="../../img/homepage/banner-smart-txn.jpg">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <img class=" m-l-30decrease m-t-60-decrease  is-hidden-desktop" src="../../img/homepage/banner-smart-txn-m.png"> 
+
+
+                    <div class="slide-captions m-t-15">
+                        <!-- Captions -->
+                        <span data-animate="fadeInUp" data-animate-delay="300" class="strong"><a href="#" class="business"><span class="business">Elevar pagamentos</span></a>
+                        </span>
+                        <h1 data-animate="fadeInUp" data-animate-delay="600" class="dkblue">Transações<Br>inteligentes</h1>
+                        <div data-animate="fadeInUp" data-animate-delay="900">
+                            <a href="servicos/kyt.html"><button type="button" class="btn btn-roundeded btn-reveal btn-reveal-left"><span class="white">Compre KYT</span><i class="icon-chevron-right"></i></a></button>
+                            <a href="servicos/verificacao-de-fraude.html"><button type="button" class="m-l-20  btn btn-roundeded btn-reveal btn-reveal-left"><span class="white">Verificacao de fraude</span><i class="icon-chevron-right"></i></a></button>
+                        </div>
+
+
+                        <!-- end: Captions -->
+                        <div class="row" style="padding-top:13%;">
+                            <div class="col-lg-3" data-animate="fadeInUp" data-animate-delay="1200">
+                                <Br><Br>
+                                <h4>Verificar</h4>
+                                <p class="white">Adicione facilmente Transação e Identidade KYC em vários pontos de contato de transação para garantir compromissos confiáveis.</p>
                             </div>
-
-                  
-
-
-                             <!-- LAYER DNA 1 -->
-                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-7" id="slide-1678-layer-3" data-x="['right','right','right','right']" data-hoffset="['0','707','500','300']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','100','107','5']" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:300px;rZ:35deg;opacity:0;","speed":2000,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 13;border-width:0px;">
-                                <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="4px" data-origin="50% 50%"><img src="../../plugin/assets/images/dummy.png" alt="" data-ww="['1050px','1050px','800px','300px']" data-hh="['550px','550px','419px','177px']" width="1000" height="500" data-lazyload="../../img/banner/data-dna3.png"
-                                        data-no-retina> </div>
-                            </div>
-
-
-                            <!-- LAYER PERSON MAIN-->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-1678-layer-1" data-x="['center','center','center','center']" data-hoffset="['350','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-200','-100','-90','-20']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":800,"to":"o:1;","delay":650,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 14;border-width:0px;"><img src="../../plugin/assets/images/dummy.png" alt="" data-ww="['1100px','850','900px','700']" data-hh="['1150px','933','941px','732']" width="600" height="1000" data-lazyload="../../img/banner/guy_anti-fraud1.png"
-                                    data-no-retina> </div>
-
-
-
-                            <!--LAYER NR. 31 -->
-                            <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-3" id="slide-1680-layer-2" data-x="['center','center','center','center']" data-hoffset="['200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['21','-100','25','-20']"
-                                data-width="['780','800','640','400']" data-height="['800','900','680','800']" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"from":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1000,"to":"o:1;","delay":600,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15;background-color:rgba(0, 0, 0, 0);border-color:rgba(74, 156, 213, 0.35);border-style:solid;border-width:30px;">
-                            </div>
-
-                           
-                            <!-- LAYER ANTI-FRAUD LOGIN -->
-                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-7" id="slide-1678-layer-3" data-x="['left','left','left','left']" data-hoffset="['850','650','500','300']" data-y="['top','top','top','top']" data-voffset="['160','-150','150','50']" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:300px;rZ:35deg;opacity:0;","speed":2000,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 16;border-width:0px;">
-                                <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="4px" data-origin="50% 50%"><img src="../../plugin/assets/images/dummy.png" alt="" data-ww="['365px','365px','274px','175px']" data-hh="['400px','400px','300px','192px']" width="365" height="400" data-lazyload="../../img/banner/anti-fraud-login-pt.png"
-                                        data-no-retina> </div>
-                            </div>
-
-
-                            <!-- LAYER ANTI-FRAUD ACCESS DENIED -->
-                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-7" id="slide-1678-layer-3" data-x="['right,'right','right','right']" data-hoffset="['-800','80','90','20']" data-y="['middle','middle','middle','middle']" data-voffset="['200','-50','40','-70']" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:300px;rZ:35deg;opacity:0;","speed":2000,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[900,0,0,0]" style="z-index: 17;border-width:0px;">
-                                <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="4px" data-origin="50% 50%"><img src="../../plugin/assets/images/dummy.png" alt="" data-ww="['400px','400px','300px','200px']" data-hh="['200px','200px','150px','100px']" width="400" height="200" data-lazyload="../../img/banner/anti-fraud-access-denied-pt.png"
-                                        data-no-retina> </div>
+                            <div class="col-lg-3" data-animate="fadeInUp" data-animate-delay="1500">
+                                <Br><Br>
+                                <h4 >Conheça o risco.</h4>
+                                <p class="white">Recursos de aprendizado de máquina para identificar riscos de fraude antes de se tornar uma ameaça ao seu negócio.</p>
                             </div>
                           
-
-                          
-                            <!-- HEADER STATEMENT -->
-                            <div class="tp-caption   tp-resizeme  blurslider-gradient " id="slide-896-layer-2" data-x="['left','center','center','center']" data-hoffset="['10','1','1','1']" data-y="['left','middle','middle','middle']" data-voffset="['-80','-500','-270','50']"
-                                data-fontsize="['90','100','90','55']" data-lineheight="['95','105','95','60']" data-letterspacing="['-2','-2','-2','-1']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":600,"speed":1000,"frame":"0","from":"y:50px;rX:90deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                data-textAlign="['left','center','center','center']" data-paddingtop="[270,20,20,20]" data-paddingright="[10,10,10,10]" data-paddingbottom="[100,0,0,0]" data-paddingleft="[10,10,10,10]" style="z-index: 21; white-space: nowrap; font-size: 100px; line-height: 120px; font-weight: 700; color: rgba(255,255,255,1); letter-spacing: -10px;font-family:Poppins;">Bloquear Fraudes <br />e proteger </div>
-
-
-
-                                 <!-- SUBTEXT -->
-                            <div class="tp-caption   tp-resizeme" id="slide-896-layer-8" data-x="['left','center','center','center']" data-hoffset="['10','0','0','0']" data-y="['left','middle','middle','middle']" data-voffset="['-450','170','200','200']" data-width="['650','650','520','360']"
-                                data-height="none" data-whitespace="['normal','normal','normal','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":600,"speed":1000,"frame":"0","from":"y:50px;rX:90deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                data-textAlign="['left','center','center','center']" data-paddingtop="[500,0,0,0]" data-paddingright="[10,5,0,5]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[20,5,0,5]"  data-fontsize="['35','35','30','20']" data-lineheight="['45','47','42','31']"  style="z-index: 22; white-space: nowrap; font-size: 30px; line-height: 34px; font-weight: 500; color: rgba(255,255,255,1); font-family:poppins;">Informações sobre fraudes, detecção de padrões e análise de risco avançada com fluxos de trabalho dinâmicos para proteger os clientes e suas receitas.</div>
-
-
-                            
-                            
-
-                            <!-- LAYER ARROW -->
-                            <div class="tp-caption  tp-resizeme tp-svg-layer " id="slide-1678-layer-14" data-x="['left','left','left','left']" data-hoffset="[-80','50','20','10']" data-y="['middle','middle','middle','middle']" data-voffset="['30','120','100','50']"
-                                data-width="['25', '25','25','15']" data-height="['25','25','25','15']" data-whitespace="nowrap" data-type="svg" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-1678","delay":""}]' data-svg_src="../../img/homepage/banner-arrow-left-24px.svg"
-                                data-svg_idle="sc:transparent;sw:0;sda:0;sdo:0;" data-svg_hover="sc:transparent;sw:0;sda:0;sdo:0;" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":1750,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"200","ease":"Power1.easeInOut","to":"o:1;sX:1.4;sY:1.4;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 18; min-width: 25px; max-width: 25px;  color: rgba(255, 255, 255, 1.00);border-width:0px;cursor:pointer;">
-                                <div class="rs-looped rs-slideloop" data-easing="Power1.easeInOut" data-speed="1" data-xs="0" data-xe="0" data-ys="-5" data-ye="5"> </div>
-                            </div>
-
-
-                            <!--LAYER ARROW -->
-                            <div class="tp-caption  tp-resizeme tp-svg-layer " id="slide-1678-layer-14" data-x="['right','right','right','right']" data-hoffset="['-90','50','20','10']" data-y="['middle','middle','middle','middle']" data-voffset="['30','120','100','50']"
-                                 data-width="['25', '25','25','15']" data-height="['25','25','25','15']" data-whitespace="nowrap" data-type="svg" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-1679","delay":""}]' data-svg_src="../../img/homepage/banner-arrow-right-24px.svg"
-                                data-svg_idle="sc:transparent;sw:0;sda:0;sdo:0;" data-svg_hover="sc:transparent;sw:0;sda:0;sdo:0;" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":1750,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"200","ease":"Power1.easeInOut","to":"o:1;sX:1.4;sY:1.4;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 18; color: rgba(255, 255, 255, 1.00);border-width:0px;cursor:pointer;">
-                                <div class="rs-looped rs-slideloop" data-easing="Power1.easeInOut" data-speed="1" data-xs="0" data-xe="0" data-ys="-5" data-ye="5"> </div>
-                            </div>
-
-
-                            <!-- LAYER NR. 34 -->
-                           <div class="tp-caption rev-btn  tp-resizeme" id="slide-1680-layer-15" data-x="['left','center','center','center']" data-hoffset="['30','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['280','340','350','340']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":900,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bs:solid;"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[50,50,50,50]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[50,50,50,50]" style="z-index: 23; white-space: nowrap; font-size: 18px; line-height: 60px; font-weight: 700; color: rgba(255,255,255,1); letter-spacing: px;font-family:Poppins;background: rgba(255,255,255,1) 100%;border-radius: 8px;border-color:rgba(0,0,0,1);-webkit-box-shadow:0px 10px 20px 0px rgba(0,0,0,0.35);-moz-box-shadow:0px 10px 20px 0px rgba(0,0,0,0.35);box-shadow:0px 10px 20px 0px rgba(0,0,0,0.35);cursor:pointer;"><a href="servicos/verificacao-de-fraude.html">VER SOLUÇÃO </a></div>
-
-                            
-
-
-
-                          
-                        </li>
-
-
-
-
-
-
-                        <!-- SLIDE 2  -->
-                        <li data-index="rs-1679" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Perspective"
-                            data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <!-- MAIN IMAGE -->
-                            <img src="../../plugin/assets/images/dummy.png" data-bgcolor="#1b263f" alt="" data-lazyload="../../plugin/assets/images/transparent.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
-                                class="rev-slidebg" data-no-retina>
-                           
-                           
-                            <!-- LAYER BG BOX -->
-                            <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-1" id="slide-1680-layer-3" data-x="['center','center','center','center']" data-hoffset="['200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','-100','20','-50']"
-                                data-width="['480','500','400','350']" data-height="['560','600','460','675']" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"from":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1000,"to":"o:1;","delay":500,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;background-color:rgba(0, 0, 0, 0);border-color:rgba(74, 156, 213, 0.15);border-style:solid;border-width:30px;filter:blur(5px);-webkit-filter:blur(5px);-moz-filter:blur(5px);-o-filter:blur(5px);-ms-filter:blur(5px);">
-                            </div>
-
-
-                            
-                           
-
-                             <!--LAYER DNA 2 -->
-                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-7" id="slide-1678-layer-3" data-x="['left','left','left','left']" data-hoffset="['300','230','180','50']" data-y="['top','top','top','top']" data-voffset="['-50','150','350','-10']" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:300px;rZ:35deg;opacity:0;","speed":2000,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 3;border-width:0px;">
-                                <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="4px" data-origin="50% 50%"><img src="../../plugin/assets/images/dummy.png" alt="" data-ww="['1150px','800px','800px',600px']" data-hh="['600px','417px','417px','313px']" width="1000" height="500" data-lazyload="../../img/banner/data-dna-txn4.png"
-                                        data-no-retina> </div>
-                            </div>
-
-                            
-
-
-                             <!-- LAYER PERSON -->
-                           <div class="tp-caption   tp-resizeme rs-parallaxlevel-7" id="slide-1679-layer-2" data-x="['right','right','right','right']" data-hoffset="['100','320','260','100']" data-y="['bottom','bottom','bottom','bottom']"  data-voffset="['0','52','135','140']" data-width="none"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":800,"to":"o:1;","delay":650,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 4;border-width:0px;"><img src="../../plugin/assets/images/dummy.png" alt="" data-ww="['700','700','550px','500px']" data-hh="['778','778','611px','556px']" width="1000" height="1000" data-lazyload="../../img/banner/txn-cc-woman-transparent.png"
-                                    data-no-retina> </div>
-
-                          
-                           
-                            
-
-                             <!-- LAYER DNA 2 -->
-                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-7" id="slide-1678-layer-3" data-x="['left','left','left','left']" data-hoffset="['200','707','567','300']" data-y="['top','top','top','top']" data-voffset="['500','33','107','5']" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:300px;rZ:35deg;opacity:0;","speed":2000,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6;border-width:0px;">
-                                <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="4px" data-origin="50% 50%"><img src="../../plugin/assets/images/dummy.png" alt="" data-ww="['900px','684px','450px','300px']" data-hh="['471px','404px','266px','177px']" width="1000" height="500" data-lazyload="../../img/banner/data-dna-txn2.png"
-                                        data-no-retina> </div>
-                            </div>
-
-                            <!-- LAYER PERSON MAIN-->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-1678-layer-1" data-x="['left','left','left','left']" data-hoffset="['700','200','180','70]" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-50','-70','20','40']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":800,"to":"o:1;","delay":650,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7;border-width:0px;"><img src="../../plugin/images/dummy.png" alt="" data-ww="['850px','900','780px','650']" data-hh="['884px','936px','811px','676']" width="600" height="1000" data-lazyload="../../img/banner/txn-man-laptop-transparent.png"
-                                    data-no-retina> </div>
-
-
-                            <!-- LAYER BLUE BLUR-->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-1678-layer-1" data-x="['left','left','left','left']" data-hoffset="['350','707','567','300]" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-200','-180','-90','-90']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":800,"to":"o:1;","delay":650,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 3;border-width:0px;"><img src="../../plugin/assets/images/dummy.png" alt="" data-ww="['1100px','500','500px','400']" data-hh="['1050px','833','833px','667']" width="600" height="1000" data-lazyload="../../img/banner/blue-blur.png"
-                                    data-no-retina> </div>
-
-
-                              <!-- LAYER TOP BOX -->
-                            <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-3" id="slide-1680-layer-2" data-x="['center','center','center','center']" data-hoffset="['300','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['50','-100','25','-20']"
-                                data-width="['1000','800','640','400']" data-height="['700','900','680','700']" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"from":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1000,"to":"o:1;","delay":600,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15;background-color:rgba(0, 0, 0, 0);border-color:rgba(74, 156, 213, 0.35);border-style:solid;border-width:30px;">
-                            </div>
-
-
-                             <!-- HEADER STATEMENT -->
-                            <div class="tp-caption   tp-resizeme  blurslider-gradient " id="slide-896-layer-2" data-x="['left','center','center','center']" data-hoffset="['10','1','1','1']" data-y="['left','middle','middle','middle']" data-voffset="['-80','-500','-270','50']"
-                                data-fontsize="['90','100','90','55']" data-lineheight="['95','105','95','60']" data-letterspacing="['-2','-2','-2','-1']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":600,"speed":1000,"frame":"0","from":"y:50px;rX:90deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                data-textAlign="['left','center','center','center']" data-paddingtop="[270,20,20,20]" data-paddingright="[10,10,10,10]" data-paddingbottom="[100,0,0,0]" data-paddingleft="[10,10,10,10]" style="z-index: 21; white-space: nowrap; font-size: 100px; line-height: 120px; font-weight: 700; color: rgba(255,255,255,1); letter-spacing: -10px;font-family:Poppins;">Transações <Br>Inteligentes</div>
-
-
-
-                                 <!-- SUBTEXT -->
-                            <div class="tp-caption   tp-resizeme" id="slide-896-layer-8" data-x="['left','center','center','center']" data-hoffset="['10','0','0','0']" data-y="['left','middle','middle','middle']" data-voffset="['-450','170','200','200']" data-width="['650','650','520','360']"
-                                data-height="none" data-whitespace="['normal','normal','normal','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":600,"speed":1000,"frame":"0","from":"y:50px;rX:90deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                data-textAlign="['left','center','center','center']" data-paddingtop="[500,0,0,0]" data-paddingright="[10,5,0,5]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[20,5,0,5]"  data-fontsize="['35','35','30','20']" data-lineheight="['45','47','42','31']" style="z-index: 22; white-space: nowrap; font-size: 30px; line-height: 34px; font-weight: 500; color: rgba(255,255,255,1); font-family:poppins;">KYC automatizado, autenticação e defesa contra fraudes para proteger todas as transações em todo o mundo.</div>
-
-
-
-                           
-
-                               <!-- LAYER ARROW -->
-                            <div class="tp-caption  tp-resizeme tp-svg-layer " id="slide-1678-layer-14" data-x="['left','left','left','left']" data-hoffset="[-80','50','20','10']" data-y="['middle','middle','middle','middle']" data-voffset="['30','120','100','50']"
-                                data-width="['25', '25','25','15']" data-height="['25','25','25','15']" data-whitespace="nowrap" data-type="svg" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-1680","delay":""}]' data-svg_src="../../img/homepage/banner-arrow-left-24px.svg"
-                                data-svg_idle="sc:transparent;sw:0;sda:0;sdo:0;" data-svg_hover="sc:transparent;sw:0;sda:0;sdo:0;" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":1750,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"200","ease":"Power1.easeInOut","to":"o:1;sX:1.4;sY:1.4;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; min-width: 100px; max-width: 100px; max-width: 100px; max-width: 100px; color: rgba(255, 255, 255, 1.00);border-width:0px;cursor:pointer;">
-                                <div class="rs-looped rs-slideloop" data-easing="Power1.easeInOut" data-speed="1" data-xs="0" data-xe="0" data-ys="-5" data-ye="5"> </div>
-                            </div>
-
-
-                            <!-- LAYER ARROW -->
-                             <div class="tp-caption  tp-resizeme tp-svg-layer " id="slide-1678-layer-14" data-x="['right','right','right','right']" data-hoffset="['-90','50','20','10']" data-y="['middle','middle','middle','middle']" data-voffset="['30','120','100','50']"
-                                 data-width="['25', '25','25','15']" data-height="['25','25','25','15']" data-whitespace="nowrap" data-type="svg" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-1678","delay":""}]' data-svg_src="../../img/homepage/banner-arrow-right-24px.svg"
-                                data-svg_idle="sc:transparent;sw:0;sda:0;sdo:0;" data-svg_hover="sc:transparent;sw:0;sda:0;sdo:0;" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":1750,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"200","ease":"Power1.easeInOut","to":"o:1;sX:1.4;sY:1.4;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 18; color: rgba(255, 255, 255, 1.00);border-width:0px;cursor:pointer;">
-                                <div class="rs-looped rs-slideloop" data-easing="Power1.easeInOut" data-speed="1" data-xs="0" data-xe="0" data-ys="-5" data-ye="5"> </div>
-                            </div>
-
-
-                             <!-- LAYER NR. 34 -->
-                            <div class="tp-caption rev-btn  tp-resizeme" id="slide-1680-layer-15" data-x="['left','center','center','center']" data-hoffset="['30','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['280','340','350','340']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":900,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bs:solid;"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[50,50,50,50]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[50,50,50,50]" style="z-index: 23; white-space: nowrap; font-size: 18px; line-height: 60px; font-weight: 700; color: rgba(255,255,255,1); letter-spacing: px;font-family:Poppins;background: rgba(255,255,255,1) 100%;border-radius: 8px;border-color:rgba(0,0,0,1);-webkit-box-shadow:0px 10px 20px 0px rgba(0,0,0,0.35);-moz-box-shadow:0px 10px 20px 0px rgba(0,0,0,0.35);box-shadow:0px 10px 20px 0px rgba(0,0,0,0.35);cursor:pointer;"><a href="servicos/kyt.html">VER SOLUÇÃO </a></div>
-
-
-
-                        </li>
-
-
-
-
-
-
-                         <!-- SLIDE 3 -->
-                        <li data-index="rs-1678" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Focus"
-                            data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <!-- MAIN IMAGE -->
-                            <img src="../../img/banner/dummy.png" alt="" data-lazyload="../../img/banner/transparent.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
-                                class="rev-slidebg" data-no-retina>
-                            <!-- LAYERS -->
-
-                           
-                           
-                             
-                           <!-- LAYER BG BOX -->
-                            <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-1" id="slide-1680-layer-3" data-x="['center','center','center','center']" data-hoffset="['200','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['20','-100','20','-150']"
-                                data-width="['480','500','400','250']" data-height="['560','600','460','275']" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"from":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1000,"to":"o:1;","delay":500,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;background-color:rgba(0, 0, 0, 0);border-color:rgba(74, 156, 213, 0.15);border-style:solid;border-width:30px;filter:blur(5px);-webkit-filter:blur(5px);-moz-filter:blur(5px);-o-filter:blur(5px);-ms-filter:blur(5px);">
-                            </div>
-
-                          
-
-
-
-                             <!-- LAYER DNA 2 -->
-                             <div class="tp-caption   tp-resizeme rs-parallaxlevel-7" id="slide-1678-layer-3" data-x="['right','right','right','right']" data-hoffset="['-550','200','50','10']" data-y="['middle','middle','middle','middle']" data-voffset="['-50','-240','-100','-200']" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:300px;rZ:35deg;opacity:0;","speed":2000,"to":"o:1;","delay":1250,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6;border-width:0px;">
-                                <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="4px" data-origin="50% 50%"><img src="../../plugin/assets/images/dummy.png" alt="" data-ww="['900px','900px','900px','684px']" data-hh="['471px','471px','471px','404px']" width="1000" height="500" data-lazyload="../../img/banner/data-dna2.png"
-                                        data-no-retina> </div>
-                            </div>
-
-                        
-                
-
-                               <!-- LAYER Thumbprint -->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1678-layer-4" data-x="['right','left','left','left']" data-hoffset="['-120','70','20','182']" data-y="['top','top','top','top']" data-voffset="['80','-80','80','-60']" data-width="none"
-                                data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:300px;rZ:45deg;opacity:0;","speed":2000,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10;border-width:0px;">
-                                <div class="rs-looped rs-wave" data-speed="5" data-angle="0" data-radius="6px" data-origin="50% 50%"><img src="../../plugin/assets/images/dummy.png" alt="" data-ww="['500px','400px','400px','350px']" data-hh="['667px','533px','533px','467px']" width="200" height="300" data-lazyload="../../img/banner/data-fingerprint2.png"
-                                        data-no-retina> </div>
-                            </div>
-
-                              <!-- LAYER PERSON MAIN-->
-                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-3" id="slide-1678-layer-1" data-x="['center','center','center','center']" data-hoffset="['180','0','0','0']" data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-200','-100','-150','50']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":800,"to":"o:1;","delay":650,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12;border-width:0px;"><img src="../../plugin/assets/images/dummy.png" alt="" data-ww="['962px','962px','900px','600px']" data-hh="['1000px','1000px','936px','624px']" width="600" height="1000" data-lazyload="../../img/banner/guy_excited_kyc1.png"
-                                    data-no-retina> </div>
-                            
-
-                            
-
-
-                             <!-- LAYER TOP BOX -->
-                            <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-3" id="slide-1680-layer-2" data-x="['center','center','center','center']" data-hoffset="['300','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['50','-100','25','-20']"
-                                data-width="['1000','800','640','400']" data-height="['700','900','680','700']" data-whitespace="nowrap" data-type="shape" data-responsive_offset="on" data-frames='[{"from":"x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1000,"to":"o:1;","delay":600,"ease":"Back.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15;background-color:rgba(0, 0, 0, 0);border-color:rgba(74, 156, 213, 0.35);border-style:solid;border-width:30px;">
-                            </div>
-
-
-                            <!-- LAYER  -->
-                            <div class="tp-caption tp-shape tp-shapewrapper   tp-gradientbg" id="slide-1678-layer-15" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full"
-                                data-height="full" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"opacity:0;","speed":300,"to":"o:0.75;","delay":0,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15;background-color:rgba(0, 0, 0, 0);border-color:rgba(0, 0, 0, 0);border-width:0px;">
-                            </div>
-
-
-
-
-
-                             <!-- HEADER STATEMENT -->
-                            <div class="tp-caption   tp-resizeme  blurslider-gradient " id="slide-896-layer-2" data-x="['left','center','center','center']" data-hoffset="['10','1','1','1']" data-y="['left','middle','middle','middle']" data-voffset="['-80','-500','-270','50']"
-                                data-fontsize="['90','100','90','55']" data-lineheight="['95','105','95','60']" data-letterspacing="['-2','-2','-2','-1']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":600,"speed":1000,"frame":"0","from":"y:50px;rX:90deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                data-textAlign="['left','center','center','center']" data-paddingtop="[270,20,20,20]" data-paddingright="[10,10,10,10]" data-paddingbottom="[100,0,0,0]" data-paddingleft="[10,10,10,10]" style="z-index: 21; white-space: nowrap; font-size: 100px; line-height: 120px; font-weight: 700; color: rgba(255,255,255,1); letter-spacing: -10px;font-family:Poppins;">KYC global. <br> 1 API. SIM!! </div>
-
-
-
-                                 <!-- SUBTEXT -->
-                            <div class="tp-caption   tp-resizeme" id="slide-896-layer-8" data-x="['left','center','center','center']" data-hoffset="['10','0','0','0']" data-y="['left','middle','middle','middle']" data-voffset="['-450','170','200','200']" data-width="['650','650','520','360']"
-                                data-height="none" data-whitespace="['normal','normal','normal','normal']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":600,"speed":1000,"frame":"0","from":"y:50px;rX:90deg;opacity:0;fb:10px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                                data-textAlign="['left','center','center','center']" data-paddingtop="[500,0,0,0]" data-paddingright="[10,5,0,5]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[20,5,0,5]" data-fontsize="['35','35','30','20']" data-lineheight="['45','47','42','31']" style="z-index: 22; white-space: nowrap; font-size: 30px; line-height: 34px; font-weight: 500; color: rgba(255,255,255,1); font-family:poppins;">Identidade digital, ID de documento para autenticação, tudo em uma única plataforma e fluxos de trabalho personalizados.</div>
-
-
-
-                            
-                            
-                            <!-- LAYER ARROW -->
-                             <div class="tp-caption  tp-resizeme tp-svg-layer " id="slide-1678-layer-14" data-x="['left','left','left','left']" data-hoffset="[-80','50','20','10']" data-y="['middle','middle','middle','middle']" data-voffset="['30','120','100','50']"
-                                data-width="['25', '25','25','15']" data-height="['25','25','25','15']" data-whitespace="nowrap" data-type="svg" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-1680","delay":""}]' data-svg_src="../../img/homepage/banner-arrow-left-24px.svg"
-                                data-svg_idle="sc:transparent;sw:0;sda:0;sdo:0;" data-svg_hover="sc:transparent;sw:0;sda:0;sdo:0;" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":1750,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"200","ease":"Power1.easeInOut","to":"o:1;sX:1.4;sY:1.4;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; min-width: 100px; max-width: 100px; max-width: 100px; max-width: 100px; color: rgba(255, 255, 255, 1.00);border-width:0px;cursor:pointer;">
-                                <div class="rs-looped rs-slideloop" data-easing="Power1.easeInOut" data-speed="1" data-xs="0" data-xe="0" data-ys="-5" data-ye="5"> </div>
-                            </div>
-
-
-                            <!-- LAYER ARROW -->
-                            <div class="tp-caption  tp-resizeme tp-svg-layer " id="slide-1678-layer-14" data-x="['right','right','right','right']" data-hoffset="['-90','50','20','10']" data-y="['middle','middle','middle','middle']" data-voffset="['30','120','100','50']"
-                                 data-width="['25', '25','25','15']" data-height="['25','25','25','15']" data-whitespace="nowrap" data-type="svg" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-1680","delay":""}]' data-svg_src="../../img/homepage/banner-arrow-right-24px.svg"
-                                data-svg_idle="sc:transparent;sw:0;sda:0;sdo:0;" data-svg_hover="sc:transparent;sw:0;sda:0;sdo:0;" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":1750,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"200","ease":"Power1.easeInOut","to":"o:1;sX:1.4;sY:1.4;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 18; color: rgba(255, 255, 255, 1.00);border-width:0px;cursor:pointer;">
-                                <div class="rs-looped rs-slideloop" data-easing="Power1.easeInOut" data-speed="1" data-xs="0" data-xe="0" data-ys="-5" data-ye="5"> </div>
-                            </div>
-
-
-                              <!-- LAYER NR. 34 -->
-                            <div class="tp-caption rev-btn  tp-resizeme" id="slide-1680-layer-15" data-x="['left','center','center','center']" data-hoffset="['30','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['280','340','350','340']"
-                                data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-frames='[{"from":"y:50px;opacity:0;","speed":1000,"to":"o:1;","delay":900,"ease":"Power4.easeOut"},{"delay":"wait","speed":700,"to":"auto:auto;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bs:solid;"}]'
-                                data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[50,50,50,50]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[50,50,50,50]" style="z-index: 23; white-space: nowrap; font-size: 18px; line-height: 60px; font-weight: 700; color: rgba(255,255,255,1); letter-spacing: px;font-family:Poppins;background: rgba(255,255,255,1) 100%;border-radius: 8px;border-color:rgba(0,0,0,1);-webkit-box-shadow:0px 10px 20px 0px rgba(0,0,0,0.35);-moz-box-shadow:0px 10px 20px 0px rgba(0,0,0,0.35);box-shadow:0px 10px 20px 0px rgba(0,0,0,0.35);cursor:pointer;"><a href="servicos/kyc.html">VER SOLUÇÃO </a></div>
-
-
-
-                         
-                        </li>
-
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- END REVOLUTION SLIDER -->
-             <script type="text/javascript">
-                var tpj = jQuery;
-                var revapi484;
-                tpj(document).ready(function() {
-                    if (tpj("#rev_slider_484_1").revolution == undefined) {
-                        revslider_showDoubleJqueryError("#rev_slider_484_1");
-                    } else {
-                        revapi484 = tpj("#rev_slider_484_1").show().revolution({
-                            sliderType: "standard",
-                            jsFileLocation: "../../plugin/js/",
-                            sliderLayout: "fullscreen",
-                            dottedOverlay: "none",
-                            delay: 9000,
-                            navigation: {
-                                keyboardNavigation: "off",
-                                keyboard_direction: "horizontal",
-                                mouseScrollNavigation: "off",
-                                mouseScrollReverse: "default",
-                                onHoverStop: "off",
-                                touch: {
-                                    touchenabled: "on",
-                                    swipe_threshold: 75,
-                                    swipe_min_touches: 1,
-                                    swipe_direction: "horizontal",
-                                    drag_block_vertical: false
-                                }
-                            },
-                            responsiveLevels: [1240, 1024, 778, 480],
-                            visibilityLevels: [1240, 1024, 778, 480],
-                            gridwidth: [1240, 1024, 778, 480],
-                            gridheight: [900, 768, 960, 720],
-                            lazyType: "single",
-                            parallax: {
-                                type: "mouse",
-                                origo: "slidercenter",
-                                speed: 300,
-                                levels: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 49, 50, 51, 55],
-                                type: "mouse",
-                            },
-                            shadow: 0,
-                            spinner: "spinner2",
-                            stopLoop: "on",
-                            stopAfterLoops: 0,
-                            stopAtSlide: 1,
-                            shuffle: "off",
-                            autoHeight: "off",
-                            fullScreenAutoWidth: "off",
-                            fullScreenAlignForce: "off",
-                            fullScreenOffsetContainer: "",
-                            fullScreenOffset: "",
-                            disableProgressBar: "on",
-                            hideThumbsOnMobile: "off",
-                            hideSliderAtLimit: 0,
-                            hideCaptionAtLimit: 0,
-                            hideAllCaptionAtLilmit: 0,
-                            debugMode: false,
-                            fallbacks: {
-                                simplifyAll: "off",
-                                nextSlideOnWindowFocus: "off",
-                                disableFocusListener: false,
-                            }
-                        });
-                    }
-                }); /*ready*/
-            </script>
-        </section>
-        <!-- end: Revolution Slider-->
+            <!-- end: Slide 1 -->
 
 
+
+            <!-- Slide 2 -->
+            <div class="slide kenburns" data-bg-parallax="../../img/homepage/banner-block-fraud.jpg">
+
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <img class=" m-l-30decrease m-t-40-decrease  is-hidden-desktop" src="../../img/homepage/banner-block-fraud-man.png"> 
+                    
+                    <div class="slide-captions m-t-15">
+                        <!-- Captions -->
+                        <span data-animate="fadeInUp" data-animate-delay="300" class="strong"><a href="#" class="business"><span class="business">Maximize o envolvimento</span></a>
+                        </span>
+                        <h1 data-animate="fadeInUp" data-animate-delay="600" class="dkblue">Bloqueie fraudes<Br>e proteja. </h1>
+                        <div data-animate="fadeInUp" data-animate-delay="900">
+                            <a href="servicos/monitorar.html"><button type="button" class="btn btn-roundeded btn-reveal btn-reveal-left"><span class="white">Saber mais</span><i class="icon-chevron-right"></i></a></button>
+                        </div>
+
+
+                        <!-- end: Captions -->
+                        <div class="row" style="padding-top:13%;">
+                            <div class="col-lg-3" data-animate="fadeInUp" data-animate-delay="1200">
+                                <Br><Br>
+                                <h4>Monitorar</h4>
+                                <p class="white">Experimente o próximo nível de monitoramento transacional com análise de risco poderosa, ferramentas de relatórios e fila de ações.</p>
+                            </div>
+                            <div class="col-lg-3" data-animate="fadeInUp" data-animate-delay="1500">
+                                <Br><Br>
+                                <h4 >Percepções</h4>
+                                <p class="white">Detecte padrões de fraude, vinculações de contas, tendências de comportamento e BI avançado para defesa adaptativa contra fraudes.</p>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 2 -->
+
+
+
+            <!-- Slide 3 -->
+            <div class="slide kenburns" data-bg-parallax="../../img/homepage/banner-kyc.jpg">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                     <img class=" m-l-30decrease m-t-60-decrease  is-hidden-desktop" src="../../img/homepage/banner-kyc-man.png"> 
+
+
+                    <div class="slide-captions m-t-15">
+                        <!-- Captions -->
+                        <span data-animate="fadeInUp" data-animate-delay="300" class="strong"><a href="#" class="business"><span class="business">Verifique com confiança</span></a>
+                        </span>
+                        <h1 data-animate="fadeInUp" data-animate-delay="600" class="dkblue">KYC global<Br>mais fácil!</h1>
+                        <div data-animate="fadeInUp" data-animate-delay="900">
+                            <a href="servicos/kyc.html"><button type="button" class="btn btn-roundeded btn-reveal btn-reveal-left"><span class="white">Dados da loja</span><i class="icon-chevron-right"></i></a></button>
+                            <a href="servicos/identificacao-do-documento.html"><button type="button" class="m-l-20 btn btn-roundeded btn-reveal btn-reveal-left"><span class="white">Shop identificacao do documento</span><i class="icon-chevron-right"></i></a></button>
+                        </div>
+
+
+                        <!-- end: Captions -->
+                        <div class="row" style="padding-top:13%;">
+                            <div class="col-lg-3" data-animate="fadeInUp" data-animate-delay="1200">
+                                <Br><Br>
+                                <h4>Todos os dados.</h4>
+                                <p class="white">Desde geo, impressão digital de dispositivos, e-mail, telefone, correspondência de identidade, KYC baseado em transações, detecção de atividade e muito mais.</p>
+                            </div>
+                            <div class="col-lg-3" data-animate="fadeInUp" data-animate-delay="1500">
+                                <Br><Br>
+                                <h4 >KYC perpétuo</h4>
+                                <p class="white">Combata fraudes sofisticadas baseadas em dados com uma série de verificações KYC contínuas quando e onde você quiser.</p>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 3 -->
+
+
+
+
+           
+        </div>
+        <!--end: Inspiro Slider -->
 
         <!--BODY-->
 
     
+ <!-- INTRO -->
+        <section id="fraudscreen-intro" class="page-section background-dkblue">
+            <div class="container-subwide" >
+                <div class="howworks text-center">
+                    <h2>Controle Total em Todos os Pontos de Contato</h2>
+                    <h3>Fique à frente da fraude com tecnologia de risco inovadora.</h3>
+                </div>
 
+                 
+                <div class="row howworks">
+
+                     <div class="col-lg-3 col-sm-6 col-12 box">
+                        <div data-animate="fadeInUp" data-animate-delay="0">
+                            <img class="left-thumb-align" src="../../../img/fraud/benefit-flexible.png" height="100px;">
+                            <h4 class="medblue ">Flexibilidade</h4>
+                            <p class="white">Use nossas regras predeterminadas ou defina limites de risco personalizados e regras adaptadas ao seu apetite de risco e requisitos específicos de defesa contra fraudes. </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 col-12 box">
+                        <div data-animate="fadeInUp" data-animate-delay="0">
+                            <img class="left-thumb-align" src="../../../img/fraud/benefit-grow.png" height="100px;">
+                            <h4 class="medblue ">Escalabilidade</h4>
+                            <p class="white">Lide com grandes volumes de transações e automatize o processo de verificação, reduzindo a necessidade de revisão manual e minimizando atrasos na integração. </p>
+                        </div>
+                    </div>
+
+
+                     <div class="col-lg-3 col-sm-6 col-12 box">
+                        <div data-animate="fadeInUp" data-animate-delay="0">
+                            <img class="left-thumb-align" src="../../../img/digital-id/risk-analysis.png" height="100px;">
+                            <h4 class="medblue ">Precisão</h4>
+                            <p class="white">Nosso sistema aprende automaticamente com os padrões de dados e melhora a precisão ao longo do tempo, reduzindo o número de falsos positivos e verificações negativas.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-sm-6 col-12 box">
+                        <div data-animate="fadeInUp" data-animate-delay="0">
+                            <img class="left-thumb-align" src="../../../img/fraud/benefit-compliance.png" height="100px;">
+                            <h4 class="medblue ">Conformidade</h4>
+                            <p class="white">Adapte-se aos requisitos regulatórios globais em constante mudança e verifique todas as informações KYC necessárias com seus limites de risco apropriados em tempo real.</p>
+                        </div>
+                    </div>
+
+
+                     
+                </div>
+
+
+            </div>
+        </section>
+        <!-- END INTRO -->
          
  <!-- KYC INTRO -->
         <section>
@@ -657,7 +479,7 @@ twq('config','ocmrd');
                     <div class="col-lg-7 m-t-10" data-animate="fadeInUp" data-animate-delay="800">
                         <div class="m-b-40">
                             <h1 class="text-medium dkblue">Dados: Chave Para Proteção</h1>
-                            <h2 class="text-medium-mlight medblue">KYC de ponta a ponta para transformar identidades digitais em ativos confiáveis.</h2>
+                            <!--<h2 class="text-medium-mlight medblue">KYC de ponta a ponta para transformar identidades digitais em ativos confiáveis.</h2>-->
                             
 
                                 <span class="lead bullet-checks">
@@ -695,50 +517,7 @@ twq('config','ocmrd');
 
 
 
-         <!-- RISK ANALYSIS INTRO -->
-        <section>
-            <div class="container">
-                <div class="row m-t-20">
-                    <div class="col-lg-6 feature-img-left " style="height:575px">
-                        <div class="image-absolute " data-animate="fadeInLeft" data-animate-delay="400">
-                            <img src="../../img/fraud/monitor-customer-profile1-pt.jpg" alt="">
-                        </div>
-                        <div class="image-absolute " data-animate="fadeInLeft" data-animate-delay="800">
-                            <img src="../../img/fraud/monitor-customer-profile2-pt.png" alt="">
-                        </div>
-
-                        <div class="image-absolute " data-animate="fadeInLeft" data-animate-delay="1200">
-                            <img src="../../img/fraud/monitor-customer-profile3-pt.png" alt="">
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-lg-6" data-animate="fadeInUp" data-animate-delay="1000">
-                        <div class="m-b-10">
-                           <h1 class="text-medium dkblue m-t-30">Análise de risco multinível.</h1>
-                            <h2 class="text-medium-mlight medblue">Algoritmos de risco avançados e inteligência de aprendizado de máquina.</h2>
-                            <span class="lead bullet-checks">
-                                <ul>
-                                    <li><i class="icon-check-circle"></i>Limites de risco personalizados e configurações de regras</li>
-                                    <li><i class="icon-check-circle"></i>Lógica infinita baseada em regras com scripts de formato livre</li>
-                                    <li><i class="icon-check-circle"></i>Pontuação de risco com resultados orquestrados por dados</li>
-                                    <li><i class="icon-check-circle"></i>Ações automatizadas para pontuações de aviso e falha</li>
-                                    <li><i class="icon-check-circle"></i>Aprendizado de máquina para detectar padrões e tendências</li>  
-                                    <li><i class="icon-check-circle"></i>Monitoramento em tempo real, centro de ação e painel ao vivo</li>      
-                                </ul>
-
-                            </span>
-                        </div>
-
-                        <a href="servicos/verificacao-de-fraude.html" class="btn btn-dark btn-outline"><span>Triagem de Fraude</span></a>
-                    </div>
-
-                </div>
-            </div>
-
-        </section>
-        <!-- RISK ANALYSIS INTRO -->
+        
 
 
 
@@ -758,21 +537,21 @@ twq('config','ocmrd');
                     <div class="col-lg-7">
                         <div class="row">
                             <div class="col-lg-6">
-                                 <div class="icon-box effect medium dkblue"><a href="services/kyt.html">
+                                 <div class="icon-box effect medium dkblue"><a href="servicos/kyt.html">
                                     <div class="icon"> <i class="icon-kyt"></i> </div>
                                     <h3>Dados KYT</h3>
                                     <p>Aproveite as verificações de dados essenciais para validar os usuários em todas as transações.</p></a>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                               <div class="icon-box effect medium dkblue"><a href="services/crypto-analysis.html">
+                               <div class="icon-box effect medium dkblue"><a href="servicos/analise-de-criptografia.html">
                                     <div class="icon"><i class="icon-crypto"></i> </div>
                                     <h3>Análise de Criptografia</h3>
                                     <p>Revele o risco de endereços criptográficos e carteiras em blockchains.</p></a>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="icon-box effect medium dkblue"><a href="services/fraud-screen.html">
+                                <div class="icon-box effect medium dkblue"><a href="servicos/verificacao-de-fraude.html">
                                     <div class="icon"><i class="icon-fraud-defence"></i> </div>
                                     <h3>Triagem de Fraude</h3>
                                     <p>Limites de risco, análise e pontuação de risco aprofundadas, respostas de ação automatizadas e muito mais.</p></a>
@@ -780,14 +559,14 @@ twq('config','ocmrd');
                             </div>
                             <div class="col-lg-6">
 
-                                <div class="icon-box effect medium dkblue"><a href="services/monitor.html">
+                                <div class="icon-box effect medium dkblue"><a href="servicos/monitorar.html">
                                     <div class="icon"><i class="icon-fraud-screen"></i> </div>
                                     <h3>Monitoramento</h3>
                                     <p>Identifique insights de fraude, padrões, associações, anéis de fraude e muito mais para engajamentos seguros.</p></a>
                                 </div>
                             </div>
                              <div class="col-lg-6">
-                                <div class="icon-box effect medium dkblue"><a href="services/monitor.html">
+                                <div class="icon-box effect medium dkblue"><a href="servicos/monitorar.html">
                                     <div class="icon"><i class="icon-user-profile"></i> </div>
                                     <h3>Perfil do Usuário</h3>
                                     <p>Da informação central do usuário, resultados da verificação de dados KYC, histórico, dispositivos, comportamento, transações e muito mais.</p></a>
@@ -795,7 +574,7 @@ twq('config','ocmrd');
                             </div>
                             <div class="col-lg-6">
 
-                                <div class="icon-box effect medium dkblue"><a href="company/acuitytec-cert.html">
+                                <div class="icon-box effect medium dkblue"><a href="empresa/certificado.html">
                                     <div class="icon"><i class="icon-risk-cert"></i> </div>
                                     <h3>AcuityTec Cert.</h3>
                                     <p>Dê conforto e confiança aos clientes, processadores de pagamento e reguladores de que sua mitigação de risco é certificada.</p></a>
@@ -820,7 +599,7 @@ twq('config','ocmrd');
                     <div class="col-lg-7 m-t-40" data-animate="fadeInUp" data-animate-delay="800">
                         <div class="m-t-5">
                             <h1 class="text-medium dkblue">Monitorar e Mitigar</h1>
-                            <h2 class="text-medium-mlight medblue">Nunca deixe escapar atividades suspeitas com monitoramento ao vivo e alertas para proteção imbatível.</h2>
+                            <!--<h2 class="text-medium-mlight medblue">Nunca deixe escapar atividades suspeitas com monitoramento ao vivo e alertas para proteção imbatível.</h2>-->
 
                              <span class="lead bullet-checks">
                                 <ul><br>
@@ -948,7 +727,7 @@ twq('config','ocmrd');
                     <div class="col-lg-6 m-t-30" data-animate="fadeInUp" data-animate-delay="1000">
                         <div class="m-b-10">
                            <h1 class="text-medium dkblue m-t-30">Cumpra os Regulamentos Globais</h1>
-                            <h2 class="text-medium-mlight medblue">Conformidade excepcional para a defesa contra atividades ilícitas.</h2>
+                            <!--<h2 class="text-medium-mlight medblue">Conformidade excepcional para a defesa contra atividades ilícitas.</h2>-->
                             <span class="lead bullet-checks">
                                 <ul>
                                     <li><i class="icon-check-circle"></i>Análise de risco de triagem AML/CTF baseada em dados</li>
@@ -983,40 +762,40 @@ twq('config','ocmrd');
                
                 <div class="row">
 
-                    <!-- features box BIZ GROWTH -->
+                    <!-- features box KYB Article 2 -->
                     <div class="col-lg-4 col-sm-6 col-12 m-b-80" data-animate="fadeInUp" data-animate-delay="200">
-                        <a href="noticias/pr-crescimento-empresarial-q1-2024.html"><img src="../../../news/img/thumbs/pr-bizgrowth-thumb-q1-24.jpg" class="img-fluid img-round m-b-20"></a>
-                        <h5 class="medblue-dk"><img src="../../../img/icons/news-article.svg" height="20px;" style="float:left; margin-right: 10px;">Publicado em 7 de fevereiro de 2024</h5>
-                        <h4 class="dkblue">Avanços significativos no crescimento empresarial e inovação.</h4>
+                        <a href="noticias/artigo-24-kyb-automacao.html"><img src="../../../news/img/thumbs/article-kyb-part2-thumb.jpg" class="img-fluid img-round m-b-20"></a>
+                        <h5 class="medblue-dk"><img src="../../../img/icons/news-article.svg" height="20px;" style="float:left; margin-right: 10px;">Publicado em 11 de julho de 2024</h5>
+                        <h4 class="dkblue">Alavancando o KYB Automatizado Baseado em Dados. Verificado. Confiável. Eficiência B2B.</h4>
                         
-                        <p class="text-xsmall">Estamos empolgados em anunciar nosso crescimento excepcional e conquistas significativas. Em 2023, a AcuityTec embarcou em uma jornada transformadora, enriquecendo seu produto com várias novas funcionalidades. Notavelmente, eles...<br><br>
-                        <a href="noticias/pr-crescimento-empresarial-q1-2024.html">Ler comunicado à imprensa <i class="fa fa-long-arrow-alt-right"></i> </a></p>
+                        <p class="text-xsmall">A plataforma automatizada de KYB da AcuityTec oferece uma alternativa baseada em dados ao processo trabalhoso de subscrição manual e permite que as empresas identifiquem e verifiquem instantaneamente informações críticas para...<br><br>
+                        <a href="noticias/artigo-24-kyb-automacao.html">Ler comunicado à imprensa <i class="fa fa-long-arrow-alt-right"></i> </a></p>
                     </div>
                    <!--end: features box -->
 
 
 
-                     <!-- features box COMPLYADVANTAGE -->
+                    <!-- features box KYB Article 1 -->
                     <div class="col-lg-4 col-sm-6 col-12 m-b-80" data-animate="fadeInUp" data-animate-delay="200">
-                        <a href="noticias/pr-aml-datos-0124.html"><img src="../../../news/img/thumbs/pr-complyadvantage-thumb.jpg" class="img-fluid img-round m-b-20"></a>
-                        <h5 class="medblue-dk"><img src="../../../img/icons/news-article.svg" height="20px;" style="float:left; margin-right: 10px;">Publicado em 31 de janeiro de 2024</h5>
-                        <h4 class="dkblue">Dados AML de conformidade enriquecidos</h4>
+                        <a href="noticias/artigo-24-kyb-tecnologia.html"><img src="../../../news/img/thumbs/article-kyb-part1-thumb.jpg" class="img-fluid img-round m-b-20"></a>
+                        <h5 class="medblue-dk"><img src="../../../img/icons/news-article.svg" height="20px;" style="float:left; margin-right: 10px;">Publicado em 3 de julho de 2024</h5>
+                        <h4 class="dkblue">Adotando KYB Automatizado e Baseado em Dados - Aprimore Conformidade, Confiança e Eficiência com Tecnologia KYB.</h4>
                         
-                        <p class="text-xsmall">Estamos empolgados em anunciar nossa expansão dos nossos dados de KYC e conformidade AML por meio de nossa nova integração com a ComplyAdvantage. Conjuntos de dados dinâmicos e interligados permitem a verificação instantânea de clientes contra as sanções, listas de..<br><br>
-                        <a href="noticias/pr-aml-datos-0124.html">Ler comunicado à imprensa<i class="fa fa-long-arrow-alt-right"></i> </a></p>
+                        <p class="text-xsmall">À medida que o comércio digital evolui e os marketplaces online crescem, a linha entre KYC e KYB se torna mais tênue. A era digital transformou a forma como as transações ocorrem, com consumidores navegando por...<br><br>
+                        <a href="noticias/artigo-24-kyb-tecnologia.html">Ler comunicado à imprensa <i class="fa fa-long-arrow-alt-right"></i> </a></p>
                     </div>
                    <!--end: features box -->
 
 
 
-                     <!-- features box PRODUCT ENHANCE -->
+                    <!-- features box IGAMING ARTICLE -->
                     <div class="col-lg-4 col-sm-6 col-12 m-b-80" data-animate="fadeInUp" data-animate-delay="200">
-                        <a href="noticias/pr-atualizacao-do-produto-1223.html"><img src="../../../news/img/thumbs/pr-product-9.1-thumb.jpg" class="img-fluid img-round m-b-20"></a>
-                        <h5 class="medblue-dk"><img src="../../../img/icons/news-article.svg" height="20px;" style="float:left; margin-right: 10px;">Publicado em: 19 de dezembro de 2023</h5>
-                        <h4 class="dkblue">Melhorias do produto</h4>
+                        <a href="noticias/artigo-24-defesa-contra-fraudes.html"><img src="../../../news/img/thumbs/article-igaming-fraud-defense-thumb.jpg" class="img-fluid img-round m-b-20"></a>
+                        <h5 class="medblue-dk"><img src="../../../img/icons/news-article.svg" height="20px;" style="float:left; margin-right: 10px;">Publicado em 24 de maio de 2024</h5>
+                        <h4 class="dkblue">Navegando pelo Futuro da Defesa Contra Fraudes - em Jogos de Azar Online: Integrando KYC, Blockchain e Análise Preditiva</h4>
                         
-                        <p class="text-xsmall">Lançamos uma série de melhorias sofisticadas em nossa plataforma. "Com essas últimas melhorias, a AcuityTec não está apenas oferecendo recursos; está proporcionando uma visão estratégica e uma dedicação inabalável para equipar as empresas com as ferramentas mais avançadas para KYC, conformidade e...<br><br>
-                        <a href="noticias/pr-atualizacao-do-produto-1223.html">Ler comunicado à imprensa<i class="fa fa-long-arrow-alt-right"></i> </a></p>
+                        <p class="text-xsmall">De acordo com a Straits Research, até 2030, o mercado global de jogos de azar online alcançará <a href="https://straitsresearch.com/report/online-gambling-market">US$ 153 bilhões</a>. Como tal, a constante evolução na segurança e defesa contra fraudes em jogos está em fluxo...<br><br>
+                        <a href="noticias/artigo-24-defesa-contra-fraudes.html">Ler comunicado à imprensa <i class="fa fa-long-arrow-alt-right"></i> </a></p>
                     </div>
                    <!--end: features box -->
 

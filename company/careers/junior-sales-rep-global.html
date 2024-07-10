@@ -116,38 +116,65 @@
 </head>
 
 <body>
+  
+
     <!-- Body Inner -->
-    <div class="body-inner">
+    <div class="body-inner-reg">
+
+         <!-- Topbar-->
+        <div id="topbar" class="topbar-transparent topbar-dark d-none d-xl-block d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ">
+                         <ul class="top-menu">
+                            <li><a href="tel:+18665042170">Phone: +1-866-504-2170 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                            <li><a class="medblue" href="../contact.html">Contact Sales <i class="fa fa-long-arrow-alt-right"></i></a></li>
+                        </ul>
+                      
+                    </div>
+
+
+                    <div class="col-md-6 d-none d-sm-block ">
+                        
+
+                        <div class="social-icons ">
+                            <ul>
+                                <li class="social-twitter"><a href="https://twitter.com/acuitytec" target="_blank"><img src="../../img/svg/twitter-x.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.linkedin.com/company/acuitytec/" target="_blank"><img src="../../img/svg/linkedin.svg"  width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.facebook.com/AcuityTec/" target="_blank"><img src="../../img/svg/facebook.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.reddit.com/user/Acuitytec-global/" target="_blank"><img src="../../img/svg/reddit.svg"  width="18px"></a></li>   
+                            </ul>
+                        </div>
+
+                       
 
 
 
-        <!-- Header -->
-        <header id="header" data-fullwidth="false" class="dark">
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--end: Topbar -->
+
+
+   <!-- Header -->
+        <header id="header" class="light">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
-                        <a href="../../index.html">
-                            <span class="logo-default"><img src="../../img/svg/logo-white.svg" width="180px;"></span>
-                            <span class="logo-dark"><img src="../../img/svg/logo-white.svg" width="180px;"></span>
+                       <a href="../../index.html">
+                            <span class="logo-default"><img src="../../img/svg/logo-fullcolor.svg" width="180px;"></span>
+                            <span class="logo-dark"><img src="../../img/svg/logo-fullcolor.svg" width="180px;"></span>
                         </a>
                     </div>
                     <!--End: Logo-->
-                   
-
+                    
                     <!--Header Extras-->
-                    <div class="header-extras">
-                        <ul>
-                            <li>
-                                <div class="p-dropdown">
-                                    <a href="#"><img src="../../img/svg/flag-usa.svg" width="35px;"></a>
-                                    <ul class="p-dropdown-content">
-                                        <li><a href="#"><img src="../../img/svg/flag-usa.svg" width="28px;">English</a></li>
-                                        <li><a href="../../ml/sp/empresa/carreras/representante-de-ventas-junior-global.html"><img src="../../img/svg/flag-spanish.svg" width="22px;"> Spanish</a></li>
-                                        <li><a href="../../ml/pt/empresa/carreiras/representante-de-vendas-junior-global.html"><img src="../../img/svg/flag-portugal.svg" width="22px;"> Portuguese</a></li>
-                                    </ul>
-                                </div>
-                            </li>
+                    <div class="header-extras is-hidden-mobile is-hidden-tablet">
+                        <ul class="m-t-10 m-r-10">
+                             <li class="book_demo_btn m-t-3-decrease "><a href="../contact.html"  class="navbutton btn btn-outline btn-rounded" style="border-color:rgba(90, 173, 224, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Get Quote</a></li>
+                           
                         </ul>
                     </div>
                     <!--end: Header Extras-->
@@ -157,57 +184,93 @@
                     </div>
                     <!--end: Navigation Resposnive Trigger-->
                     <!--Navigation-->
-                    <div id="mainMenu">
+                    <div id="mainMenu" class="menu-left">
                         <div class="container">
                             <nav>
-                                <ul>
-                                    <li class="dropdown"><a href="#">Services</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">KYC</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="../../services/digital-id.html">Digital Identity</a></li>
-                                                    <li><a href="../../services/document-id.html">Document ID</a></li>
-                                                    <li><a href="../../services/authentication.html">Authentication</a></li>
+                                <ul class="m-t-10">
+                                    
+                                     <li>
+                                        <div class="p-dropdown m-t-3-decrease is-hidden-tablet is-hidden-mobile">
+                                            <a href="#"><img src="../../../img/svg/flag-usa.svg" width="35px;"></a>
+                                                <ul class="p-dropdown-content">
+                                                    <li><a href="#"><img src="../../../img/svg/flag-usa.svg" width="28px;">English</a></li>
+                                                    <li><a href="../../ml/sp/empresa/carreras/representante-de-ventas-junior-global.html"><img src="../../../img/svg/flag-spanish.svg" width="22px;"> Spanish</a></li>
+                                                    <li><a href="../../ml/pt/empresa/carreiras/representante-de-vendas-junior-global.html"><img src="../../../img/svg/flag-portugal.svg" width="22px;"> Portuguese</a></li>
                                                 </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Smart Transactions</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="../../services/kyt.html">KYT Data</a></li>
-                                                    <li><a href="../../services/crypto-analysis.html">Crypto Analysis</a></li>
-                                                </ul>
-                                            </li>
-                                           
-                                            <li><a href="../../services/compliance.html">Compliance</a></li>
+                                        </div>
+                                     </li>
 
-                                             <li class="dropdown-submenu"><a href="#">Fraud Defence</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="../../services/fraud-screen.html">Fraud Screening</a></li>
-                                                    <li><a href="../../services/monitor.html">Fraud Monitoring</a></li>
-                                                    <li><a href="../../services/bi-reporting.html">B.I. Reporting</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="../../services/kyb.html">KYB Underwriting</a></li>
-                                            <li><a href="../../services/merchant-services.html">Merchant Services</a></li>
-                                            <li><a href="../../services/whitelabel.html">White-Label Solution</a></li>
-                                           
-                                        </ul>
-                                    </li>
-                                    <li><a href="../partners.html">Partners</a></li>
 
-                                    <li class="dropdown"><a href="#">Company</a>
+                                     <li class="dropdown is-hidden-desktop">
+                                       <a href="#"><img src="../img/svg/flag-usa.svg" width="35px;">English</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="../about.html">About</a></li>
-                                            <li><a href="../../news/index.html">News & Media</a></li>
-                                            <li><a href="../acuitytec-cert.html">AcuityTec Certificate</a></li>
-                                            <li><a href="../careers.html">Careers</a></li>
-                                            <li><a href="../contact.html">Contact Us</a></li>
+                                           <li class="dropdown-submenu"><a href="#">English</a></li>
+                                           <li class="dropdown-submenu"><a href="../../ml/sp/empresa/carreras/representante-de-ventas-junior-global.html">Spanish</a></li>
+                                           <li class="dropdown-submenu"><a href="../../ml/pt/empresa/carreiras/representante-de-vendas-junior-global.html">Portuguese</a></li>
                                         </ul>
+                                        <hr>
                                     </li>
 
 
-                                     <li class="book_demo_btn"><a href="../book-demo.html"  class="navbutton btn btn-lg btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Get A Demo</a></li>
+                                    <li><a href="../index.html">Home</a></li>
+
+                                   
+                                   
+                                    <li class="dropdown mega-menu-item"><a href="#">Solutions</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="mega-menu-content">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Data</li>
+                                                            <li><a href="../../services/digital-id.html">Digital Identity</a></li>
+                                                            <li><a href="../../services/document-id.html">Document ID</a></li>
+                                                            <li><a href="../../services/authentication.html">Authentication</a></li>
+                                                            <li><a href="../../services/compliance.html">Compliance AML</a></li>
+                                                            <li><a href="../../services/kyb.html">KYB</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Fraud Defence</li>
+                                                            <li><a href="../../services/fraud-screen.html">Fraud Screening</a></li>
+                                                            <li><a href="../../services/monitor.html">Monitoring</a></li>
+                                                            <li><a href="../../services/kyt.html">KYT</a></li>
+                                                            <li><a href="../../services/crypto-analysis.html">Crypto Analysis</a></li>
+                                                            <li><a href="../../services/bi-reporting.html">B.I. Reporting</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Business Services</li>
+                                                            <li><a href="../../services/whitelabel.html">White-Label<span class="badge bg-danger">NEW</span></a></li>
+                                                            <li><a href="../../services/merchant-services.html">Merchant Services</a></li>
+                                                            <li><a href="../partners.html">Partnerships</a></li>
+                                                        </ul>
+                                                    </div>
+                                                   
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="dropdown"><a href="../news/index.html">Insights</a> </li>
+
+
+                                    <li class="dropdown "><a href="#">Company</a>
+                                        <ul class="dropdown-menu">
+                                           <li class="dropdown-submenu"><a href="../about.html">About Us</a></li>
+                                           <li class="dropdown-submenu"><a href="../acuitytec-cert.html">AcuityTec Certified</a></li>
+                                           <li class="dropdown-submenu"><a href="../careers.html">Careers</a></li>
+                                           <li class="dropdown-submenu"><a href="../contact.html">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                    
+
+                                    <li class="book_demo_btn m-t-20 is-hidden-desktop "><a href="../contact.html"  class="navbutton btn btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Get Quote</a></li>
+
                                 </ul>
-
                             </nav>
                         </div>
                     </div>
@@ -216,6 +279,8 @@
             </div>
         </header>
         <!-- end: Header -->
+
+
        
 
 

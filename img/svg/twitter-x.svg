@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="svg5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 963.66 963.66"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#274666;stroke:#fff;stroke-miterlimit:10;}</style></defs><circle class="cls-2" cx="481.83" cy="481.83" r="481.33"/><g id="layer1"><path id="path1009" class="cls-1" d="m185.3301,202.9614l230.07,307.62-231.52,250.11h52.11l202.7-218.98,163.77,218.98h177.3201l-243.0201-324.92,215.5001-232.81h-52.11l-186.6701,201.67-150.83-201.67h-177.32,0Zm76.63,38.38h81.46l359.72,480.97h-81.46L261.9601,241.3414h0Z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 963.6 963.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4c9bd5;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #061f38;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="481.8" cy="481.8" r="481.3"/>
+  <g id="layer1">
+    <path id="path1009" class="cls-2" d="M185.3,203l230.1,307.6-231.5,250.1h52.1l202.7-219,163.8,219h177.3l-243-324.9,215.5-232.8h-52.1l-186.7,201.6-150.8-201.6h-177.4ZM262,241.3h81.5l359.7,481h-81.5L262,241.3h0Z"/>
+  </g>
+</svg>

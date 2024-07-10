@@ -112,38 +112,61 @@
 </head>
 
 <body>
-    <!-- Body Inner -->
-    <div class="body-inner">
+
+<!-- Body Inner -->
+    <div class="body-inner-reg">
+
+         <!-- Topbar-->
+        <div id="topbar" class="topbar-transparent topbar-dark d-none d-xl-block d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ">
+                         <ul class="top-menu">
+                            <li><a href="tel:+18665042170">Telefone: +1-866-504-2170 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                            <li><a class="medblue" href="../empresa/contate-nos.html">Entre em contato com vendas <i class="fa fa-long-arrow-alt-right"></i></a></li>
+                        </ul>
+                      
+                    </div>
+
+
+                    <div class="col-md-6 d-none d-sm-block ">
+                        
+
+                        <div class="social-icons ">
+                            <ul>
+                                <li class="social-twitter"><a href="https://twitter.com/acuitytec" target="_blank"><img src="../../../img/svg/twitter-x.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.linkedin.com/company/acuitytec/" target="_blank"><img src="../../../img/svg/linkedin.svg"  width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.facebook.com/AcuityTec/" target="_blank"><img src="../../../img/svg/facebook.svg" width="18px"></a></li>
+                                <li class=" social-twitter m-l-10"><a href="https://www.reddit.com/user/Acuitytec-global/" target="_blank"><img src="../../../img/svg/reddit.svg"  width="18px"></a></li>   
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!--end: Topbar -->
 
 
 
-        <!-- Header -->
-        <header id="header" data-fullwidth="false" class="dark">
+   <!-- Header -->
+        <header id="header" class="light">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
-                        <a href="../index.html">
-                            <span class="logo-default"><img src="../../../img/svg/logo-white.svg" width="180px;"></span>
-                            <span class="logo-dark"><img src="../../../img/svg/logo-white.svg" width="180px;"></span>
+                       <a href="../index.html">
+                            <span class="logo-default"><img src="../../../img/svg/logo-fullcolor.svg" width="180px;"></span>
+                            <span class="logo-dark"><img src="../../../img/svg/logo-fullcolor.svg" width="180px;"></span>
                         </a>
                     </div>
                     <!--End: Logo-->
-                   
-
-                    <!--Header Extras-->
-                    <div class="header-extras">
-                        <ul>
-                            <li>
-                                <div class="p-dropdown">
-                                    <a href="#"><img src="../../../img/svg/flag-portugal.svg" width="25px;"></a>
-                                    <ul class="p-dropdown-content">
-                                        <li><a href="../../../news/index.html"><img src="../../../img/svg/flag-usa.svg" width="25px;">Inglês</a></li>
-                                        <li><a href="../../../ml/sp/noticias/index.html"><img src="../../../img/svg/flag-spanish.svg" width="22px;"> Espanhol</a></li>
-                                        <li><a href="#"><img src="../../../img/svg/flag-portugal.svg" width="22px;"> Português</a></li>
-                                    </ul>
-                                </div>
-                            </li>
+                    
+                     <!--Header Extras-->
+                    <div class="header-extras is-hidden-mobile is-hidden-tablet">
+                        <ul class="m-t-10 m-r-20">
+                             <li class="book_demo_btn m-t-3-decrease"><a href="../empresa/contate-nos.html"  class="navbutton btn btn-outline btn-rounded" style="border-color:rgba(90, 173, 224, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Contato</a></li>
+                           
                         </ul>
                     </div>
                     <!--end: Header Extras-->
@@ -152,58 +175,98 @@
                         <a class="lines-button x"><span class="lines"></span></a>
                     </div>
                     <!--end: Navigation Resposnive Trigger-->
-                     <!--Navigation-->
-                    <div id="mainMenu">
+                    <!--Navigation-->
+                    <div id="mainMenu" class="menu-left">
                         <div class="container">
-                             <nav>
-                                <ul>
-                                    <li class="dropdown"><a href="#">Serviços</a>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu"><a href="#">KYC</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="../servicos/kyc.html">Identidade Digital</a></li>
-                                                    <li><a href="../servicos/identificacao-do-documento.html">ID do Documento</a></li>
-                                                    <li><a href="../servicos/autenticacao.html">Autenticação</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown-submenu"><a href="#">Transações Inteligentes</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="../servicos/kyt.html">Dados KYT</a></li>
-                                                    <li><a href="../servicos/analise-de-criptografia.html">Análise de Criptografia</a></li>
-                                                </ul>
-                                            </li>
-                                           
-                                            <li><a href="../servicos/conformidade.html">Conformidade</a></li>
+                            <nav>
+                                <ul class="m-t-10">
 
-                                             <li class="dropdown-submenu"><a href="#">Defesa Contra Fraude</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="../servicos/verificacao-de-fraude.html">Triagem de Fraude</a></li>
-                                                    <li><a href="../servicos/monitorar.html">Monitoramento de Fraude</a></li>
-                                                    <li><a href="../servicos/relatorios.html">BI. Comunicando</a></li>
+                                    <li>
+                                        <div class="p-dropdown m-t-3-decrease is-hidden-tablet is-hidden-mobile">
+                                            <a href="#"><img src="../../../img/svg/flag-portugal.svg" width="30px;"></a>
+                                                <ul class="p-dropdown-content">
+                                                    <li><a href="../../../news/index.html"><img src="../../../img/svg/flag-usa.svg" width="25px;">Inglês</a></li>
+                                                    <li><a href="../../../ml/sp/noticias/index.html"><img src="../../../img/svg/flag-spanish.svg" width="22px;"> Espanhol</a></li>
+                                                    <li><a href="#"><img src="../../../img/svg/flag-portugal.svg" width="22px;"> Português</a></li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="../servicos/kyb.html">Subscrição KYB</a></li>
-                                            <li><a href="../servicos/servicos-para-comerciantes.html">Serviços de Comércio</a></li>
-                                            <li><a href="../servicos/marca-branca.html">Solução de Marca Branca</a></li>
-                                           
-                                        </ul>
-                                    </li>
-                                    <li><a href="../empresa/parceiros.html">Parceiros</a></li>
+                                        </div>
+                                     </li>
 
-                                    <li class="dropdown"><a href="#">Empresa</a>
+
+                                     <li class="dropdown is-hidden-desktop">
+                                       <a href="#"><img src="../../../img/svg/flag-portugal.svg" width="35px;">Português</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="../empresa/sobre.html">Sobre</a></li>
-                                            <li><a href="#">Meios de Comunicação</a></li>
-                                            <li><a href="../empresa/certificado.html">Certificado AcuityTec</a></li>
-                                            <li><a href="../empresa/carreiras.html">Carreiras</a></li>
-                                            <li><a href="../empresa/contate-nos.html">Contate-Nos</a></li>
+                                           <li class="dropdown-submenu"><a href="../../../news/index.html">Inglês</a></li>
+                                           <li class="dropdown-submenu"><a href="../../../ml/sp/noticias/index.html"> Espanhol</a></li>
+                                           <li class="dropdown-submenu"><a href="#">Português</a></li>
                                         </ul>
+                                        <hr>
                                     </li>
 
 
-                                     <li class="book_demo_btn"><a href="../empresa/demonstracao.html"  class="navbutton btn btn-lg btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Demo</a></li>
+
+                                    <li><a href="../index.html">lar</a></li>
+
+                                   
+                                   
+                                    <li class="dropdown mega-menu-item"><a href="#">Soluções</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="mega-menu-content">
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Dados</li>
+                                                            <li><a href="../servicos/kyc.html">Identidade Digital</a></li>
+                                                            <li><a href="../servicos/identificacao-do-documento.html">ID do Documento</a></li>
+                                                            <li><a href="../servicos/autenticacao.html">Autenticação</a></li>
+                                                            <li><a href="../servicos/conformidade.html">Conformidade</a></li>
+                                                            <li><a href="../servicos/kyb.html">Subscrição KYB</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Fraud Defence</li>
+                                                            <li><a href="../servicos/verificacao-de-fraude.html">Triagem de Fraude</a></li>
+                                                            <li><a href="../servicos/monitorar.html">Monitoramento de Fraude</a></li>
+                                                            <li><a href="../servicos/kyt.html">Dados KYT</a></li>
+                                                            <li><a href="../servicos/analise-de-criptografia.html">Análise de Criptografia</a></li>
+                                                            <li><a href="../servicos/relatorios.html">BI. Comunicando</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Business Services</li>
+                                                            <li><a href="../servicos/marca-branca.html">Solução de Marca Branca<span class="badge bg-danger">NEW</span></a></li>
+                                                            <li><a href="../servicos/servicos-para-comerciantes.html">Serviços de Comércio</a></li>
+                                                            <li><a href="../empresa/parceiros.html">Parceiros</a></li>
+                                                        </ul>
+                                                    </div>
+                                                   
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="dropdown"><a href="index.html">Meios de Comunicação</a></li>
+
+
+                                    <li class="dropdown "><a href="#">Empresa</a>
+                                        <ul class="dropdown-menu">
+                                           <li class="dropdown-submenu"><a href="../empresa/sobre.html">Sobre</a></li>
+                                           <li class="dropdown-submenu"><a href="../empresa/certificado.html">Certificado AcuityTec</a></li>
+                                           <li class="dropdown-submenu"><a href="../empresa/carreiras.html">Carreiras</a></li>
+                                           <li class="dropdown-submenu"><a href="../empresa/contate-nos.html">Contate-Nos</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                     <li class="book_demo_btn m-t-20 is-hidden-desktop "><a href="../empresa/contate-nos.html"  class="navbutton btn btn-outline btn-rounded" style="border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;cursor:pointer;">Obter cotação</a></li>
+
+
+
+                                   
                                 </ul>
-
                             </nav>
                         </div>
                     </div>
@@ -213,6 +276,7 @@
         </header>
         <!-- end: Header -->
        
+       
 
 
         <!--BODY-->
@@ -221,28 +285,22 @@
         <section>
 
             <div class="container">
-                <div class="row">
-                    <div class="text-center m-b-40">
-                        <h2 class="text-medium dkblue">Onde o Conhecimento Encontra a Paixão</h2>
-                        <h4 class="text-medium-mlight medblue">Bem-vindo às nossas notícias e artigos, onde você pode explorar as últimas tendências, obter insights e manter-se atualizado sobre nossos desenvolvimentos. </h4>
-                    </div>
-                </div>
+               
 
-                <!--DON'T RISK KNOW-->
+                <!-- KYB Article 1 -->
                 <div class="row gradient-dkblue-lblue news-primary-box">
-                        <div class="col-lg-6 news-primary-box">
-                            <img src="../../../img/icons/news-article-pr.svg" height="50px;">
-                            <p><em><strong>Publicado em 7 de fevereiro de 2024</strong></em></p>
-                            <h1>Crescimento...</h1>
-                            <h2 style="padding-right:20px;">Estamos entusiasmados em anunciar avanços significativos em nosso crescimento empresarial, conquistas marcantes e inovação.
-                           <br><br>
-                                <a href="pr-crescimento-empresarial-q1-2024.html" class="btn btn-primary m-r-10">Leia Mais</a>
-                            </h2>
-                        </div>
-                        <div class="col-lg-6 m-t-40">
-                           <a href="pr-crescimento-empresarial-q1-2024.html"> <img src="../../../news/img/primary/pr-primary-bizgrowth-q1-24.jpg" class="news-primary-img"></a>
-                        </div>
-                </div>
+                    <div class="col-lg-6 news-primary-box">
+                        <img src="../../../img/icons/news-article-kyb.svg" height="50px;">
+                        <p><em><strong>Publicado em: 3 de julho de 2024</strong></em></p>
+                        <h1>Alavancando o KYB Automatizado Baseado em Dados.</h1>
+                        <h2 style="padding-right:20px;">Verificado. Confiável. Eficiência B2B.<br><br>
+                            <a href="artigo-24-kyb-automacao.html" class="btn btn-primary m-r-10">Ler Artigo</a>
+                        </h2>
+                    </div>
+                    <div class="col-lg-6 m-t-20">
+                       <a href="artigo-24-kyb-automacao.html"> <img src="../../../news/img/primary/article-primary-kyb-part-2.jpg" class="news-primary-img"></a>
+                    </div>
+            </div>
 
 
 
@@ -333,8 +391,104 @@
                      <!-- Blog -->
                 <div id="blog" class="grid-layout post-3-columns m-b-30 m-t-20" data-item="post-item">
 
+                     <!-- end: KYB Article 2 
+                    <div class="post-item border">
+                    <div class="post-item-wrap">
+                        <div class="post-image">
+                            <a href="artigo-24-kyb-automacao.html">
+                                <img alt="" src="../../../news/img/thumbs/article-kyb-part2-thumb.jpg">
+                            </a>
+                            <span class="post-meta-category"><img src="../img/icons/news-article-kyb.svg"></span>
+                        </div>
+                        <div class="post-item-description">
+                        <h2><a href="artigo-24-kyb-automacao.html">Alavancando o KYB Automatizado Baseado em Dados. Verificado. Confiável. Eficiência B2B.</a></h2>
 
-                     <!-- Post item BIZ GROWTH 
+                            <p>
+                             No cenário em rápida evolução dos pagamentos online e Fintech, as empresas precisam de uma solução KYB que atenda aos requisitos de conformidade e apoie os objetivos comerciais mais amplos. Atualmente, estima-se que existam <a href="https://www.brimco.io/business-statistics-to-know/" target="_blank">334 milhões de empresas em todo o mundo, das quais 90% são pequenas empresas.</a> A plataforma automatizada de KYB da AcuityTec oferece uma alternativa baseada em dados ao processo trabalhoso de subscrição manual e permite que as empresas identifiquem e verifiquem instantaneamente informações críticas para identificar prontamente o risco...
+                        </p>
+                            <a href="artigo-24-kyb-automacao.html" class="item-link">Ler Artigo <i class="icon-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                end: Post item-->
+
+
+
+
+                    <!-- end: KYB Article 1 -->
+                    <div class="post-item border">
+                    <div class="post-item-wrap">
+                        <div class="post-image">
+                            <a href="artigo-24-kyb-tecnologia.html">
+                                <img alt="" src="../../../news/img/thumbs/article-kyb-part1-thumb.jpg">
+                            </a>
+                            <span class="post-meta-category"><img src="../img/icons/news-article-kyb.svg"></span>
+                        </div>
+                        <div class="post-item-description">
+                        <h2><a href="artigo-24-kyb-tecnologia.html">Adotando KYB Automatizado e Baseado em Dados - Aprimore Conformidade, Confiança e Eficiência com Tecnologia KYB.</a></h2>
+
+                            <p>
+                            À medida que o comércio digital evolui e os marketplaces online crescem, a linha entre KYC e KYB se torna mais tênue. A era digital transformou a forma como as transações ocorrem, com consumidores navegando por vastos marketplaces e as relações B2B de provedores de serviços de pagamento online crescendo rapidamente. O tamanho do mercado global de E-KYB deve crescer a uma taxa composta anual de 12,09%, alcançando USD 312,1 milhões até 2027...
+                        </p>
+                            <a href="artigo-24-kyb-tecnologia.html" class="item-link">Ler Artigo <i class="icon-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end: Post item-->
+
+
+
+                <!-- Post item ARTICLE IGAMING-->
+                    <div class="post-item border">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="artigo-24-defesa-contra-fraudes.html">
+                                    <img alt="" src="../../../news/img/thumbs/article-igaming-fraud-defense-thumb.jpg">
+                                </a>
+                                <span class="post-meta-category"><img src="../../../img/icons/news-article-fraud.svg"></span>
+                            </div>
+                            <div class="post-item-description">
+                                <h2><a href="artigo-24-defesa-contra-fraudes.html">Navegando pelo Futuro da Defesa Contra Fraudes - em Jogos de Azar Online: Integrando KYC, Blockchain e Análise Preditiva </a></h2>
+
+                                <p>De acordo com a Straits Research, até 2030, o mercado global de jogos de azar online alcançará <a href="https://straitsresearch.com/report/online-gambling-market">US$ 153 bilhões</a>. Como tal, a constante evolução na segurança e defesa contra fraudes em jogos está em fluxo contínuo e requer agilidade e métodos inovadores para garantir a segurança dos jogadores e das transações de forma contínua e confiante. As expectativas dos jogadores quanto à segurança em sua experiência de jogo e depósitos estão em seu ponto mais alto; no entanto, garantir isso de maneira fluida é imperativo para não impactar o interesse, as conversões e as receitas dos jogadores.
+                                </p>
+                                <a href="artigo-24-defesa-contra-fraudes.html" class="item-link">Leia Mais <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   <!-- end: Post item-->
+
+
+
+
+
+                <!-- Post item PRODUCT V9.2 -->
+                    <div class="post-item border">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="pr-atualizacao-do-produto-0424.html">
+                                    <img alt="" src="../../../news/img/thumbs/pr-product-9.2-thumb.jpg">
+                                </a>
+                                <span class="post-meta-category"><img src="../../../img/icons/news-article-pr.svg"></span>
+                            </div>
+                            <div class="post-item-description">
+                                <h2><a href="pr-atualizacao-do-produto-0424.html">Ampliamos! Introduzimos um conjunto aprimorado de recursos de defesa contra fraude para melhorar significativamente as operações de mitigação de riscos globais.</a></h2>
+
+                                <p>Estamos orgulhosos em anunciar melhorias significativas na plataforma em verificações de dados e prevenção de fraudes, projetadas para superar fraudadores sofisticados e fortalecer a defesa contra fraudes em transações, clientes e negócios em todo o mundo. Este upgrade estratégico introduz uma verificação de identidade robusta, maior precisão na triagem de fraudes e análises perspicazes, reforçando nossa liderança na proteção de operações fintech.
+                                </p>
+                                <a href="pr-atualizacao-do-produto-0424.html" class="item-link">Leia Mais <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--end: Post item-->
+
+
+
+
+
+                     <!-- Post item BIZ GROWTH -->
                     <div class="post-item border">
                         <div class="post-item-wrap">
                             <div class="post-image">
@@ -353,7 +507,7 @@
                         </div>
                     </div>
                     
-                    end: Post item-->
+                    <!--end: Post item-->
 
 
 

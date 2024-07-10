@@ -214,7 +214,7 @@
 .rev_slider_wrapper{
     position:relative;
     z-index:0;
-    width:100%
+    width:100%;
 }
 .rev_slider{
     position:relative;
@@ -239,7 +239,7 @@
 .rev_slider .no-slides-text{
     font-weight:700;
     text-align:center;
-    padding-top:80px
+    padding-top:0px
 }
 .rev_slider>ul,.rev_slider>ul>li,.rev_slider>ul>li:before,.rev_slider_wrapper>ul,.tp-revslider-mainul>li,.tp-revslider-mainul>li:before,.tp-simpleresponsive>ul,.tp-simpleresponsive>ul>li,.tp-simpleresponsive>ul>li:before{
     list-style:none!important;
