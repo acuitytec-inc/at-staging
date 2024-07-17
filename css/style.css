@@ -1231,7 +1231,7 @@ Topbar
 
 #header.header-always-fixed .header-inner, #header.header-always-fixed #header-wrap { position: fixed !important; top: 0 !important; }
 
-.dark #header .header-inner, .dark #header #header-wrap, #header.dark .header-inner, #header.dark #header-wrap { background-color: #09263a; }
+.dark #header .header-inner, .dark #header #header-wrap, #header.dark .header-inner, #header.dark #header-wrap { background-color: #031c3d; }
 
 .dark #header .header-inner #logo a > img, .dark #header .header-inner #logo a [class*="logo-"], .dark #header #header-wrap #logo a > img, .dark #header #header-wrap #logo a [class*="logo-"], #header.dark .header-inner #logo a > img, #header.dark .header-inner #logo a [class*="logo-"], #header.dark #header-wrap #logo a > img, #header.dark #header-wrap #logo a [class*="logo-"] { display: none; }
 
@@ -2044,7 +2044,7 @@ h2, .h2 { font-size: 2.35714286em; line-height: 1.36363636em; font-weight: 500; 
 
 h2:not(:last-child), .h2:not(:last-child) { margin-bottom: 16px; }
 
-h3, .h3 { font-size: 1.78571429em; line-height: 1.5em; font-weight: 500; }
+h3, .h3 { font-size: 1.7em; line-height: 1.5em; font-weight: 400; }
 
 h3:not(:last-child), .h3:not(:last-child) { margin-bottom: 12px; }
 
@@ -3799,7 +3799,7 @@ Helpers
 
 .background-grey3 { background-color: #eaeff2!important; }
 
-.background-dkblue { background-color: #222c49 !important; }
+.background-dkblue { background-color: #031c3d !important; }
 
 .background-medblue { background-color: #4A9CD5 !important; }
 
