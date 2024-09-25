@@ -36,6 +36,9 @@ section .page-content { padding: 0; }
 
 .active > .widget-list-link { color: #4a9cd5; }
 
+.brightyellow {color: #d7df23;}
+
+
 .banner-text {
   line-height: 45px;
   font-size: 40px; 
@@ -145,6 +148,8 @@ p { font-size: 15px; font-style: normal; font-weight: 400; text-transform: none;
 .howworks {margin: 0; padding: 0px;}
 .howworks  h2 {font-size: 35px; line-height: 43px;  color: #fff; font-weight: 400; padding-top: 70px;}
 .howworks h3 {font-size: 22px; line-height: 32px; color: #fff;  font-weight: 400; padding-top: 15px; padding-bottom: 25px;}
+
+.howworks h5 {font-size: 22px; line-height: 32px; color: #d7df23;  font-weight: 400; padding-top: 15px; padding-bottom: 25px;}
 .howworks .box h4 {font-size: 22px; line-height: 25px; font-weight: 600; padding-top: 15px;}
 .howworks .box p {font-size: 15px; line-height: 25px; color: #fff; font-weight: 400; padding-bottom: 10px;}
 .howworks .box {margin: 0; padding: 20px; margin-top: -80px;}
@@ -322,6 +327,8 @@ p { font-size: 20px; font-style: normal; font-weight: 400; text-transform: none;
   .icon-box-responsive p, .icon-box-responsive h3{
     margin: 0 0 20px 83px !important;
     text-align: left !important;
+
+
   }
 
 
@@ -340,6 +347,7 @@ p { font-size: 20px; font-style: normal; font-weight: 400; text-transform: none;
 .howworks h2 {font-size: 40px; line-height: 30px;  color: #fff; font-weight: 400; padding-top: 100px;}
 .howworks h3 {font-size: 25px; line-height: 35px; color: #fff;  font-weight: 400; padding-top: 15px; padding-bottom: 25px;}
 .howworks h4 {font-size: 22px; line-height: 30px; font-weight: 600; padding-top: 15px;}
+.howworks h5 {font-size: 22px; line-height: 30px; font-weight: 600; padding-top: 15px; color:#d7df23; }
 .howworks p {font-size: 16px; line-height: 22px; color: #fff; font-weight: 400; padding-bottom: 30px;}
 .howworks .box {margin: 0; padding: 20px; margin-top: -80px;}
 .howworks .box img {width: 170px; height: auto; padding-bottom: 10px; margin-top: 70px;}
@@ -507,6 +515,7 @@ p { font-size: 20px; font-style: normal; font-weight: 400; text-transform: none;
 .howworks h2 {font-size: 55px; line-height: 60px;  color: #fff; font-weight: 600; padding-top: 70px;}
 .howworks h3 {font-size: 30px; line-height: 40px; color: #fff;  font-weight: 400; padding-top: 15px; padding-bottom: 25px;}
 .howworks h4 {font-size: 22px; line-height: 30px; font-weight: 600; padding-top: 15px;}
+.howworks h5 {font-size: 22px; line-height: 30px; font-weight: 600; padding-top: 15px; color:#d7df23;}
 .howworks p {font-size: 16px; line-height: 25px; color: #fff; font-weight: 400; padding-bottom: 10px;}
 .howworks .box {margin: 0; padding: 20px; margin-top: -80px;}
 .howworks .box img {width: 200px; height: auto; padding-bottom: 10px; margin-top: 70px;}
@@ -772,6 +781,11 @@ section.dark, .dark section { background-color: #09263a; color: #2e2e2e; }
 .medblue-dk {color: #335b7f;}
 
 .white {color: #fff;}
+
+.brightyellow {color: #d7df23;}
+
+
+
 
 /* ----------------------------------------------------------------------
     Page title
@@ -2126,11 +2140,11 @@ a:not(.btn):not(.badge):not(.btn):not([href]):not([tabindex]) { color: #3c4043; 
 
 .inspiro-slider .slide .slide-captions { position: relative; text-align: left; width: 100%;}
 
-.inspiro-slider .slide .slide-captions h1 { font-size: 80px; font-weight: 700; line-height: 95px; margin-bottom: 30px; color: #fff; }
+.inspiro-slider .slide .slide-captions h1 { font-size: 80px; font-weight: 700; line-height: 95px; margin-bottom: 10px; color: #fff; }
 
 .inspiro-slider .slide .slide-captions h2 { font-size: 60px; font-weight: 700; line-height: 68px; margin-bottom: 30px; color: #fff; }
 
-.inspiro-slider .slide .slide-captions h3 { font-size: 65px; font-weight: 700; line-height: 75px; margin-bottom: 30px; }
+.inspiro-slider .slide .slide-captions h3 { font-size: 55px; font-weight: 700; line-height: 65px; margin-bottom: 40px; }
 
 .inspiro-slider .slide .slide-captions h4 {  line-height: 42px; font-size: 28px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Poppins; letter-spacing:1px; padding-right: 50px;}
 
@@ -4021,6 +4035,8 @@ Helpers
 .m-l-90 { margin-left: 90px !important; }
 
 .m-l-100 { margin-left: 100px !important; }
+
+.m-l-70decrease { margin-left: -70px !important; }
 
 .m-l-60decrease { margin-left: -60px !important; }
 
