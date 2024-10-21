@@ -2120,6 +2120,8 @@ a:not(.btn):not(.badge):not(.btn):not([href]):not([tabindex]) { color: #3c4043; 
 
 
 
+
+
 /*  Sliders */
 /* ----------------------------------------------------------------
     SLIDER
@@ -4042,6 +4044,8 @@ Helpers
 
 .m-l-40decrease { margin-left: -40px !important; }
 
+.m-l-30decrease { margin-left: -30px !important; }
+
 .m-l-20decrease { margin-left: -20px !important; }
 
 .m-l-10decrease { margin-left: -10px !important; }
@@ -4943,7 +4947,7 @@ button.btn.btn-danger, .btn:not(.close):not(.mfp-close).btn-danger, a.btn:not([h
 
 button.btn.btn-danger:hover, button.btn.btn-danger:focus, button.btn.btn-danger:not(:disabled):not(.disabled):active, button.btn.btn-danger:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close).btn-danger:hover, .btn:not(.close):not(.mfp-close).btn-danger:focus, .btn:not(.close):not(.mfp-close).btn-danger:not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close).btn-danger:not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]).btn-danger:hover, a.btn:not([href]):not([tabindex]).btn-danger:focus, a.btn:not([href]):not([tabindex]).btn-danger:not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]).btn-danger:not(:disabled):not(.disabled).active { background-color: #bd2130; border-color: #bd2130; color: #fff; }
 
-button.btn.btn-dark, .btn:not(.close):not(.mfp-close).btn-dark, a.btn:not([href]):not([tabindex]).btn-dark { background-color: #355a7c; border-color: #355a7c; }
+button.btn.btn-dark, .btn:not(.close):not(.mfp-close).btn-dark, a.btn:not([href]):not([tabindex]).btn-dark { background-color: #031c3d; border-color:  #031c3d; }
 
 button.btn.btn-dark:hover, button.btn.btn-dark:focus, button.btn.btn-dark:active, button.btn.btn-dark.active, .btn:not(.close):not(.mfp-close).btn-dark:hover, .btn:not(.close):not(.mfp-close).btn-dark:focus, .btn:not(.close):not(.mfp-close).btn-dark:active, .btn:not(.close):not(.mfp-close).btn-dark.active, a.btn:not([href]):not([tabindex]).btn-dark:hover, a.btn:not([href]):not([tabindex]).btn-dark:focus, a.btn:not([href]):not([tabindex]).btn-dark:active, a.btn:not([href]):not([tabindex]).btn-dark.active { background-color: #274666; border-color: #355a7c; color: #fff; }
 
